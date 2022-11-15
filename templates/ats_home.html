@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Free Ats</title>
+</head>
+<body>
+<h1>This is a free ats system under development</h1>
+<div class="main_page">
+
+    <form action="/ats" method="post">
+        <div class="jobsection">
+            <h2> Add Job Description Here</h2>
+            <label for="job_desc">Job Description</label>
+        <br>
+        <textarea name="job_desc" id="job_desc"
+        placeholder="Job Description" rows="4" cols="20">{{ request.form['job_desc']}}</textarea>
+        </div>
+        <div class="cvsection">
+        <h2> Add Details of resume here </h2>
+            <label for="resume">CV/Resume Content</label>
+            <br>
+            <textarea name="resume" id="resume" rows="4" cols="20"
+                      placeholder="Resume" >{{ request.form['resume'] }}</textarea>
+        </div>
+        <button type="submit" name="submit_btn">Submit</button>
+    </form>
+</div>
+    <div>
+        <h2>This is a measure of your skills</h2>
+        <br>
+        <h3>Hard Skills</h3>
+        {{  table[0] * 100 }}%
+        <h3>Soft Skills</h3>
+        {{ table[1] * 100 }}%
+        <h3>General Skills</h3>
+        {{ table[2] * 100 }}%
+    </div>
+</body>
+</html>

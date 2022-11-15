@@ -1,0 +1,4 @@
+/env/
+.idea
+*.Identifier
+__pycache__/

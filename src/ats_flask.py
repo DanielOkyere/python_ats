@@ -16,10 +16,10 @@ def ats():
     if request.method == 'POST':
         # read data to temp files
         resume = request.form['resume']
-        txt_resume = open("resume.txt", "w+")
+        txt_resume = open("texts/resume.txt", "w+")
         txt_resume.write(resume)
         job_desc = request.form['job_desc']
-        txt_jd = open("job_desc.txt","w+")
+        txt_jd = open("texts/job_desc.txt", "w+")
         txt_jd.write(job_desc)
 
         # close written files
@@ -32,7 +32,7 @@ def ats():
         table = k.sendCumlatives()
         return render_template('ats_home.html', table=table)
     else:
-        return render_template('ats_home.html')
+        return render_template('ats_home.html', table=None)
 
 
 if __name__ == "__main__":

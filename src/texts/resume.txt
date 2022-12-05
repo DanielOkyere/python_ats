@@ -11,21 +11,24 @@ Simplus, USA— Software Engineer
 SEPT 2022 - PRESENT
 * Developed and documented test cases and scenarios for Lightning apps. 
 * Updated programs as per user needs and developed codes that are in accordance to specification.
-Provide technical guidance and to coach/mentor the technical team
-Design unit tests for increased software resilience
-Collaborate with developers to integrate technology/business layers
 Alx-Holberton, Remote— Software Engineer
 MARCH 2022 - PRESENT
 * Pair programming and coding with test driven development in python. 
 * Implementation of Data structures and algorithms with C, Python, Javascript.
-Gather and address technical and design requirements
+* Automation of server with puppet and shell scripting.
+* Successful in deploying static and dynamic web application with fabric
+* Successful setups for load balancers and servers with HAProxy/NGINX.
+* Successfully secured remote servers with TLS.
+* Effectively analyzed data packets to ensure maximum uptime on the server.
+* Developed and maintained MySQL Database.
+* Containerised applications with Docker.
 Enyata, Ghana— Lead Backend Engineer
 SEPT 2021 - SEPT 2022
 * Successful design and development of RESTful and GraphQL Api. 
-Follow emerging technologies and software trends to future-proof development activities.
-Principles, Unit Testing/TDD, MVC design Pattern, HTML/CSS, Agile Software Development
-• Meticulous and a high attention to detail
-• High degree of aptitude for problem-solving and creative thinking
+* Managed technical team in Agile project development.
+* Successful implementation of DB Schema designs and Tables.
+* Effective Test driven implementation coupled with CI/CD.
+* Designed a robust web server with javascript and elastic search. 
 Expresso Inc, Nigeria— Backend Engineer
 JULY 2021 - NOV 2022
 * Designed and built RESTful Api with Typescript and GraphQl

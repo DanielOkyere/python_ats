@@ -16,8 +16,8 @@ class Extractor:
         """
         Initializes Extractor
         """
-        self.softskills = self.load_skills('softskills.txt')
-        self.hardskills = self.load_skills('hardskills.txt')
+        self.softskills = self.load_skills('texts/softskills.txt')
+        self.hardskills = self.load_skills('texts/hardskills.txt')
         self.jb_distribution = self.build_ngram_distribution(job_desc)
         self.cv_distribution = self.build_ngram_distribution(resume)
         self.table = []

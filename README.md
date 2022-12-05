@@ -18,7 +18,7 @@ $python Keyword_Extractor.py tesla_jobdescription.txt my_resume.txt
 
 A file will be created, called Extracted_Keywords.csv, which will have 7 columns and many rows. Here are the first 6 rows of an example I ran:
 
-## Example:cls:
+## Example:cl:
 ```
 ,type,skill,job,cv,m1,m2
 

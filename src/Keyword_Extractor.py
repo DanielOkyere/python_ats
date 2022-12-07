@@ -1,6 +1,7 @@
 import re
 import pandas as pd
-import sys, os
+import sys
+import os
 import numpy as np
 import nltk
 import operator
@@ -16,16 +17,16 @@ class Extractor:
         """
         Initializes Extractor
         """
-        self.softskills = self.load_skills('texts/softskills.txt')
-        self.hardskills = self.load_skills('texts/hardskills.txt')
+        self.softskills = self.load_skills('src/texts/softskills.txt')
+        self.hardskills = self.load_skills('src/texts/hardskills.txt')
         self.jb_distribution = self.build_ngram_distribution(job_desc)
         self.cv_distribution = self.build_ngram_distribution(resume)
         self.table = []
-        self.outFile = "Extracted_keywords.csv"
+        self.outFile = "src/tmp/Extracted_keywords.csv"
 
     def load_skills(self, filename):
         """
-        Loads_skills
+        Loads_skills - loads skills from reading file
         Args:
             filename: name of the file
         """
@@ -50,6 +51,14 @@ class Extractor:
         return dist
 
     def parse_file(self, filename, n):
+        """
+        parse_file - parses file to be read
+        Args:
+            filename: path to file
+            n: number of words to be obtained from file
+        Return:
+            List of words from ngrams
+        """
         f = open(filename, 'r')
         results = {}
         for line in f:
@@ -64,22 +73,33 @@ class Extractor:
         return results
 
     def clean_phrase(self, line):
-        return re.sub(r'[^\w\s]', '', line.replace('\n', '').replace('\t', '').lower())
+        """ Process the cleaning of Phrase"""
+        return re.sub(r'[^\w\s]',
+                      '',
+                      line.replace('\n', '').replace('\t', '').lower())
 
     def ngrams(self, input_list, n):
+        """ Obtains the ngrams from text"""
         return list(zip(*[input_list[i:] for i in range(n)]))
 
     def measure1(self, v1, v2):
+        """Measures the difference between v2 and v1"""
         return v1 - v2
 
     def measure2(self, v1, v2):
+        """Measures the difference between v1 and v2
+        and returns max value of difference and 0
+        """
         return max(v1 - v2, 0)
 
-    def measure3(self, v1, v2):  # cosine similarity
-        # "compute cosine similarity of v1 to v2: (v1 dot v2)/{||v1||*||v2||)"
+    def measure3(self, v1, v2):
+        """
+            compute cosine similarity of v1 to v2:
+            (v1 dot v2)/{||v1||*||v2||)
+        """
         sumxx, sumxy, sumyy = 0, 0, 0
         for i in range(len(v1)):
-            x = v1[i];
+            x = v1[i]
             y = v2[i]
             sumxx += x * x
             sumyy += y * y
@@ -87,23 +107,45 @@ class Extractor:
         return sumxy / math.sqrt(sumxx * sumyy)
 
     def sendToFile(self):
+        """
+        Sends output to file in CSV format
+        """
         try:
             os.remove(self.outFile)
         except OSError:
             pass
-        df = pd.DataFrame(self.table, columns=['type', 'skill', 'job', 'cv', 'm1', 'm2'])
-        df_sorted = df.sort_values(by=['job', 'cv'], ascending=[False, False])
-        df_sorted.to_csv(self.outFile, columns=['type', 'skill', 'job', 'cv'], index=False)
+        df = pd.DataFrame(self.table,
+                          columns=['type',
+                                   'skill',
+                                   'job',
+                                   'cv',
+                                   'm1',
+                                   'm2'])
+        df_sorted = df.sort_values(by=['job', 'cv'],
+                                   ascending=[False, False])
+        df_sorted.to_csv(self.outFile,
+                         columns=['type', 'skill', 'job', 'cv'],
+                         index=False)
 
     def sendFormated(self):
         """
         Sends formatted table to frontend
         """
-        df = pd.DataFrame(self.table, columns=['type', 'skill', 'job', 'cv', 'm1', 'm2'])
-        df_sorted = df.sort_values(by=['job', 'cv'], ascending=[False, False])
+        df = pd.DataFrame(self.table,
+                          columns=['type',
+                                   'skill',
+                                   'job',
+                                   'cv',
+                                   'm1',
+                                   'm2'])
+        df_sorted = df.sort_values(by=['job', 'cv'],
+                                   ascending=[False, False])
         return df_sorted
 
     def printMeasures(self):
+        """
+        Prints the measures of the text
+        """
         n_rows = len(self.table)
         v1 = [self.table[m1][4] for m1 in range(n_rows)]
         v2 = [self.table[m2][5] for m2 in range(n_rows)]
@@ -112,12 +154,23 @@ class Extractor:
 
         v1 = [self.table[jb][2] for jb in range(n_rows)]
         v2 = [self.table[cv][3] for cv in range(n_rows)]
-        print("Measure 3 (cosine sim): ", str(self.measure3(v1, v2)))
+        print("Measure 3 (cosine sim): ",
+              str(self.measure3(v1, v2)))
 
         for type in ['hard', 'soft', 'general']:
-            v1 = [self.table[jb][2] for jb in range(n_rows) if self.table[jb][0] == type]
-            v2 = [self.table[cv][3] for cv in range(n_rows) if self.table[cv][0] == type]
-            print("Cosine similarity for " + type + " skills: " + str(self.measure3(v1, v2)))
+            v1 = [
+                self
+                .table[jb][2] for jb in range(
+                    n_rows
+                ) if self.table[jb][0] == type
+            ]
+            v2 = [
+                self.table[cv][3] for cv in range(
+                    n_rows
+                ) if self.table[cv][0] == type
+            ]
+            print("Cosine similarity for " + type + " skills: " + str(
+                self.measure3(v1, v2)))
 
     def sendCumlatives(self):
         """
@@ -127,8 +180,16 @@ class Extractor:
         measur1, measur2, measur3 = 0, 0, 0
 
         for type in ['hard', 'soft', 'general']:
-            v1 = [self.table[jb][2] for jb in range(n_rows) if self.table[jb][0] == type]
-            v2 = [self.table[cv][3] for cv in range(n_rows) if self.table[cv][0] == type]
+            v1 = [
+                self.table[jb][2] for jb in range(
+                    n_rows
+                ) if self.table[jb][0] == type
+            ]
+            v2 = [
+                self.table[cv][3] for cv in range(
+                    n_rows
+                ) if self.table[cv][0] == type
+            ]
             if type == 'hard':
                 measur1 = self.measure3(v1, v2)
             elif type == 'soft':
@@ -139,12 +200,14 @@ class Extractor:
 
     def makeTable(self):
         # I am interested in verbs, nouns, adverbs, and adjectives
-        parts_of_speech = ['CD', 'JJ', 'JJR', 'JJS', 'MD', 'NN', 'NNS', 'NNP', 'NNPS', 'RB', 'RBR', 'RBS', 'VB', 'VBD',
+        parts_of_speech = ['CD', 'JJ', 'JJR', 'JJS', 'MD', 'NN',
+                           'NNS', 'NNP', 'NNPS', 'RB', 'RBR',
+                           'RBS', 'VB', 'VBD',
                            'VBG', 'VBN', 'VBP', 'VBZ']
         graylist = ["you", "will"]
         tmp_table = []
-        # look if the skills are mentioned in the job description and then in your cv
-
+        # look if the skills are mentioned
+        # in the job description and then in your cv
         for skill in self.hardskills:
             if skill in self.jb_distribution:
                 count_jb = self.jb_distribution[skill]
@@ -170,24 +233,39 @@ class Extractor:
         # And now for the general language of the job description:
         # Sort the distribution by the words most used in the job description
 
-        general_language = sorted(self.jb_distribution.items(), key=operator.itemgetter(1), reverse=True)
+        general_language = sorted(
+            self.jb_distribution.items(),
+            key=operator.itemgetter(1),
+            reverse=True
+        )
         for tuple in general_language:
             skill = tuple[0]
-            if skill in self.hardskills or skill in self.softskills or skill in graylist:
+            if skill in self\
+                    .hardskills or skill in self\
+                    .softskills or skill in graylist:
                 continue
             count_jb = tuple[1]
             tokens = nltk.word_tokenize(skill)
             parts = nltk.pos_tag(tokens)
-            if all([parts[i][1] in parts_of_speech for i in range(len(parts))]):
+            if all([
+                parts[i][1] in parts_of_speech for i in range(
+                    len(parts)
+                )
+            ]):
                 if skill in self.cv_distribution:
                     count_cv = self.cv_distribution[skill]
                 else:
                     count_cv = 0
                 m1 = self.measure1(count_jb, count_cv)
                 m2 = self.measure2(count_jb, count_cv)
-                tmp_table.append(['general', skill, count_jb, count_cv, m1, m2])
+                tmp_table.append(['general',
+                                  skill,
+                                  count_jb,
+                                  count_cv,
+                                  m1, m2])
         self.table = tmp_table
         return self.table
+
 
 def main():
     K = Extractor()

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=IBM+Plex+Sans&family=Ubuntu&display=swap');
+
+:root {
+  --primary-color: #2d3c54;
+  --secondary-color: #e9d9a9;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Anek Devanagari', sans-serif;
+  color: var(--secondary-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2.3rem;
+  padding: 1.5rem 0 1.5rem;
+}
+
+.header__logo {
+  padding: 0 0 0 2rem;
+  color: #fff;
+  transition: color 200ms ease-in;
+}
+
+.header__logo h3 {
+  letter-spacing: 0.3rem;
+}
+
+.header__logo:hover {
+  color: #edd2a4;
+}
+
+.header__items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.header__items a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: all 300ms ease-in;
+}
+
+.header__item {
+  padding: 0 1rem;
+}
+
+.header__item::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width 300ms;
+}
+.header__item:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+.form {
+  padding-right: 2rem;
+}
+
+.form__input {
+  background-color: transparent;
+  border: 2px solid var(--secondary-color);
+  border-radius: 50px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+  color: #fff;
+}
+
+.form__input::placeholder {
+  color: #f2ede3;
+}
+
+.form__input:focus {
+  outline: none;
+  background-color: var(--primary-color);
+}
+
+.form__btn {
+  margin-left: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  border: #000 2px solid;
+  transition: all 300ms ease-in;
+}
+
+.form__btn:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border: var(--secondary-color) 2px solid;
+}
+
+.form__btn:active {
+  transform: scale(0.98);
+}

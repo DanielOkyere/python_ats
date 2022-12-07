@@ -1,0 +1,441 @@
+type,skill,job,cv
+general,,10,43
+general,javascript,9,3
+general,is,7,0
+hard,software,6,6
+general,engineer,5,6
+general,software engineer,5,4
+soft,experience,5,2
+general,work,5,0
+general,javascript software,5,0
+general,javascript software engineer,5,0
+hard,development,4,7
+general,are,4,1
+general,looking,4,0
+general,join,4,0
+general,os,4,0
+general,role,4,0
+hard,applications,3,2
+soft,team,3,2
+general,expertise,3,1
+soft,competitive,3,0
+general,ordnance,3,0
+general,survey,3,0
+general,solutions,3,0
+general,customer,3,0
+general,proven,3,0
+general,track,3,0
+general,record,3,0
+general,ordnance survey,3,0
+general,track record,3,0
+hard,data,2,2
+hard,design,2,1
+general,have,2,1
+general,also,2,1
+general,years,2,1
+general,delivering,2,1
+general,react,2,1
+general,nodejs,2,1
+hard,testing,2,0
+hard,html,2,0
+general,working,2,0
+general,there,2,0
+general,one,2,0
+general,fantastic,2,0
+general,be,2,0
+general,spend,2,0
+general,time,2,0
+general,fully,2,0
+general,return,2,0
+general,salary,2,0
+general,services,2,0
+general,geospatial,2,0
+general,benefits,2,0
+general,days,2,0
+general,grow,2,0
+general,such,2,0
+general,css,2,0
+general,desirable,2,0
+general,azure,2,0
+general,infrastructure,2,0
+general,business,2,0
+general,technology,2,0
+general,competitive salary,2,0
+general,javascript html,2,0
+general,html css,2,0
+general,css react,2,0
+general,azure infrastructure,2,0
+general,proven track,2,0
+general,javascript html css,2,0
+general,html css react,2,0
+general,proven track record,2,0
+general,skills,1,3
+general,engineering,1,3
+hard,technical,1,2
+general,remote,1,2
+general,agile,1,2
+hard,programming,1,1
+general,understand,1,1
+general,3,1,1
+general,projects,1,1
+general,deliver,1,1
+general,frontend,1,1
+general,key,1,1
+hard,debugging,1,0
+hard,personal,1,0
+soft,flexible,1,0
+soft,training,1,0
+general,currently,1,0
+general,embrace,1,0
+general,hybrid,1,0
+general,model,1,0
+general,size,1,0
+general,fits,1,0
+general,relation,1,0
+general,hq,1,0
+general,southampton,1,0
+general,hampshire,1,0
+general,required,1,0
+general,1,1,0
+general,day,1,0
+general,month,1,0
+general,remaining,1,0
+general,being,1,0
+general,choice,1,0
+general,home,1,0
+general,regional,1,0
+general,offices,1,0
+general,more,1,0
+general,oshq,1,0
+general,able,1,0
+general,consider,1,0
+general,offering,1,0
+general,contracts,1,0
+general,appropriate,1,0
+general,circumstances,1,0
+general,fulltime,1,0
+general,permanent,1,0
+general,basis,1,0
+general,receive,1,0
+general,37511,1,0
+general,44130,1,0
+general,annum,1,0
+general,depending,1,0
+general,provides,1,0
+general,national,1,0
+general,mapping,1,0
+general,great,1,0
+general,britain,1,0
+general,worldleading,1,0
+general,provider,1,0
+general,location,1,0
+general,has,1,0
+general,helped,1,0
+general,governments,1,0
+general,make,1,0
+general,smarter,1,0
+general,decisions,1,0
+general,businesses,1,0
+general,gain,1,0
+general,valuable,1,0
+general,insight,1,0
+general,everyone,1,0
+general,world,1,0
+general,225,1,0
+general,offer,1,0
+general,joining,1,0
+general,performancerelated,1,0
+general,bonus,1,0
+general,pension,1,0
+general,scheme,1,0
+general,options,1,0
+general,25,1,0
+general,annual,1,0
+general,leave,1,0
+general,30,1,0
+general,five,1,0
+general,bank,1,0
+general,holidays,1,0
+general,extra,1,0
+general,christmas,1,0
+general,suite,1,0
+general,excellent,1,0
+general,additional,1,0
+general,continue,1,0
+general,talented,1,0
+general,thriving,1,0
+general,youll,1,0
+general,collaboratively,1,0
+general,delivery,1,0
+general,methodology,1,0
+general,pace,1,0
+general,high,1,0
+general,standards,1,0
+general,varied,1,0
+general,requirements,1,0
+general,strong,1,0
+general,background,1,0
+general,encompass,1,0
+general,wide,1,0
+general,variety,1,0
+general,technologies,1,0
+general,frameworks,1,0
+general,would,1,0
+general,exposure,1,0
+general,keen,1,0
+general,invest,1,0
+general,encourage,1,0
+general,allow,1,0
+general,addition,1,0
+general,paths,1,0
+general,opportunities,1,0
+general,flourish,1,0
+general,were,1,0
+general,problem,1,0
+general,resolution,1,0
+general,selection,1,0
+general,providing,1,0
+general,capable,1,0
+general,configuration,1,0
+general,area,1,0
+general,using,1,0
+general,knowledge,1,0
+general,modern,1,0
+general,best,1,0
+general,practice,1,0
+general,tdd,1,0
+general,bdd,1,0
+general,automated,1,0
+general,iterative,1,0
+general,incremental,1,0
+general,redux,1,0
+general,growing,1,0
+general,plays,1,0
+general,ensuring,1,0
+general,cutting,1,0
+general,edge,1,0
+general,capability,1,0
+general,people,1,0
+general,mission,1,0
+general,provide,1,0
+general,centric,1,0
+general,survey are,1,0
+general,are currently,1,0
+general,currently looking,1,0
+general,hybrid working,1,0
+general,working model,1,0
+general,one size,1,0
+general,size fits,1,0
+general,fantastic hq,1,0
+general,southampton hampshire,1,0
+general,will be,1,0
+general,be required,1,0
+general,spend 1,1,0
+general,1 day,1,0
+general,remaining time,1,0
+general,time being,1,0
+general,personal choice,1,0
+general,home one,1,0
+general,regional offices,1,0
+general,spend more,1,0
+general,more time,1,0
+general,oshq ordnance,1,0
+general,survey is,1,0
+general,is also,1,0
+general,also able,1,0
+general,consider offering,1,0
+general,offering fully,1,0
+general,fully remote,1,0
+general,remote contracts,1,0
+general,appropriate circumstances,1,0
+general,will join,1,0
+general,fulltime permanent,1,0
+general,permanent basis,1,0
+general,will receive,1,0
+general,37511 ,1,0
+general, 44130,1,0
+general,annum depending,1,0
+general,survey os,1,0
+general,os provides,1,0
+general,provides national,1,0
+general,national mapping,1,0
+general,mapping services,1,0
+general,great britain,1,0
+general,worldleading provider,1,0
+general,geospatial solutions,1,0
+general,solutions os,1,0
+general,os location,1,0
+general,location data,1,0
+general,expertise has,1,0
+general,has helped,1,0
+general,helped governments,1,0
+general,governments make,1,0
+general,make smarter,1,0
+general,smarter decisions,1,0
+general,decisions businesses,1,0
+general,businesses gain,1,0
+general,gain valuable,1,0
+general,valuable data,1,0
+general,data insight,1,0
+general,everyone experience,1,0
+general,225 years,1,0
+general,offer fantastic,1,0
+general,fantastic benefits,1,0
+general,performancerelated bonus,1,0
+general,competitive pension,1,0
+general,pension scheme,1,0
+general,flexible working,1,0
+general,working options,1,0
+general,25 days,1,0
+general,days annual,1,0
+general,annual leave,1,0
+general,leave ,1,0
+general, 30,1,0
+general,30 days,1,0
+general,five years,1,0
+general,years bank,1,0
+general,bank holidays,1,0
+general,extra 3,1,0
+general,excellent additional,1,0
+general,additional benefits,1,0
+general,engineer role,1,0
+general,projects continue,1,0
+general,are looking,1,0
+general,talented javascript,1,0
+general,thriving team,1,0
+general,team youll,1,0
+general,youll collaboratively,1,0
+general,collaboratively work,1,0
+general,agile delivery,1,0
+general,delivery methodology,1,0
+general,deliver customer,1,0
+general,customer solutions,1,0
+general,high standards,1,0
+general,varied role,1,0
+general,will work,1,0
+general,delivering customer,1,0
+general,customer requirements,1,0
+general,requirements debugging,1,0
+general,testing applications,1,0
+general,strong background,1,0
+general,javascript programming,1,0
+general,will encompass,1,0
+general,wide variety,1,0
+general,frameworks such,1,0
+general,would be,1,0
+general,be desirable,1,0
+general,have skills,1,0
+general,are keen,1,0
+general,also invest,1,0
+general,encourage development,1,0
+general,are paths,1,0
+general,development opportunities,1,0
+general,expertise flourish,1,0
+general,were looking,1,0
+general,proven experience,1,0
+general,problem resolution,1,0
+general,resolution selection,1,0
+general,technical solutions,1,0
+general,providing fully,1,0
+general,fully capable,1,0
+general,capable software,1,0
+general,software development,1,0
+general,delivering frontend,1,0
+general,frontend applications,1,0
+general,applications using,1,0
+general,using javascript,1,0
+general,modern engineering,1,0
+general,engineering best,1,0
+general,best practice,1,0
+general,tdd bdd,1,0
+general,automated testing,1,0
+general,incremental development,1,0
+general,redux nodejs,1,0
+general,infrastructure is,1,0
+general,is desirable,1,0
+general,growing technology,1,0
+general,design team,1,0
+general,team plays,1,0
+general,key role,1,0
+general,ensuring os,1,0
+general,os is,1,0
+general,cutting edge,1,0
+general,geospatial capability,1,0
+general,is looking,1,0
+general,mission is,1,0
+general,provide customer,1,0
+general,customer centric,1,0
+general,centric design,1,0
+general,technology services,1,0
+general,ordnance survey are,1,0
+general,survey are currently,1,0
+general,are currently looking,1,0
+general,hybrid working model,1,0
+general,one size fits,1,0
+general,will be required,1,0
+general,spend 1 day,1,0
+general,remaining time being,1,0
+general,spend more time,1,0
+general,oshq ordnance survey,1,0
+general,ordnance survey is,1,0
+general,survey is also,1,0
+general,is also able,1,0
+general,consider offering fully,1,0
+general,offering fully remote,1,0
+general,fully remote contracts,1,0
+general,fulltime permanent basis,1,0
+general,37511  44130,1,0
+general,ordnance survey os,1,0
+general,survey os provides,1,0
+general,os provides national,1,0
+general,provides national mapping,1,0
+general,national mapping services,1,0
+general,geospatial solutions os,1,0
+general,solutions os location,1,0
+general,os location data,1,0
+general,expertise has helped,1,0
+general,has helped governments,1,0
+general,helped governments make,1,0
+general,governments make smarter,1,0
+general,make smarter decisions,1,0
+general,smarter decisions businesses,1,0
+general,decisions businesses gain,1,0
+general,businesses gain valuable,1,0
+general,gain valuable data,1,0
+general,valuable data insight,1,0
+general,offer fantastic benefits,1,0
+general,competitive pension scheme,1,0
+general,flexible working options,1,0
+general,25 days annual,1,0
+general,days annual leave,1,0
+general,annual leave ,1,0
+general,leave  30,1,0
+general, 30 days,1,0
+general,five years bank,1,0
+general,years bank holidays,1,0
+general,excellent additional benefits,1,0
+general,software engineer role,1,0
+general,talented javascript software,1,0
+general,thriving team youll,1,0
+general,team youll collaboratively,1,0
+general,youll collaboratively work,1,0
+general,agile delivery methodology,1,0
+general,deliver customer solutions,1,0
+general,delivering customer requirements,1,0
+general,customer requirements debugging,1,0
+general,would be desirable,1,0
+general,problem resolution selection,1,0
+general,providing fully capable,1,0
+general,fully capable software,1,0
+general,capable software development,1,0
+general,delivering frontend applications,1,0
+general,frontend applications using,1,0
+general,applications using javascript,1,0
+general,modern engineering best,1,0
+general,engineering best practice,1,0
+general,azure infrastructure is,1,0
+general,infrastructure is desirable,1,0
+general,design team plays,1,0
+general,ensuring os is,1,0
+general,provide customer centric,1,0
+general,customer centric design,1,0

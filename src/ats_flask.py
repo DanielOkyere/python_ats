@@ -5,7 +5,7 @@ This is a flask server for my ats
 """
 from flask import Flask, render_template
 from flask import request
-from Keyword_Extractor import Extractor
+from src.Keyword_Extractor import Extractor
 import docx2txt
 
 app = Flask(__name__)

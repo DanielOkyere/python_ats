@@ -23,7 +23,7 @@ class Test_ats_Docs(unittest.TestCase):
         result = pep8s.check_files(['test/test_ats.py'])
         self.assertEqual(result.total_errors, 0,
                          "Found code style errors (and warnings).")
-    
+
     def test_pep8_conformance_test_keyword_extract(self):
         """Test keyword_extract.py conforms to PEP8."""
         result = pep8s.check_files(['src/Keyword_Extractor.py'])
@@ -37,6 +37,7 @@ class Test_ats_Docs(unittest.TestCase):
         self.assertIsNot(len(ats.__doc__) >= 1,
                          "ats.py needs a docstring")
 
+
 class Test_ats(unittest.TestCase):
     """Test to check match"""
 
@@ -47,4 +48,6 @@ class Test_ats(unittest.TestCase):
         extracted_file = "src/tmp/Extracted_keywords.csv"
         ats.check_match(job_desc, resume)
         if not pl.Path(extracted_file).resolve().is_file():
-            raise AssertionError("File does not exist: {}".format(extracted_file))
+            raise AssertionError("File does not exist: {}".format(
+                extracted_file)
+            )

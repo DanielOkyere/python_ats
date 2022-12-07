@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """Test ats for expected behaviour and documentation"""
+
 from src import ats
 import pep8 as pycodestyle
 import unittest
@@ -38,10 +39,12 @@ class Test_ats_Docs(unittest.TestCase):
                          "ats.py needs a docstring")
 
 
+
 class Test_ats(unittest.TestCase):
     """Test to check match"""
 
     def test_checkMatch(self):
+
         """Test for extracted words"""
         job_desc = "src/texts/job_desc.txt"
         resume = "src/texts/resume.txt"

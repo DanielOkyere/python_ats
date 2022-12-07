@@ -1,0 +1,29 @@
+Ordnance Survey are currently looking for a JavaScript Software Engineer to join our team. We embrace a hybrid working model at OS and understand there is no one size fits all in relation to how we work. We have a fantastic HQ in Southampton, Hampshire where you will be required to spend 1 day a month with the remaining time being a personal choice as to whether you work from home, one of our regional offices or spend more time at OSHQ. Ordnance Survey is also able to consider offering fully remote contracts in the appropriate circumstances. You will join us on a full-time, permanent basis and in return, you will receive a competitive salary of £37,511 - £44,130 per annum (depending on experience).
+
+Ordnance Survey (OS) provides national mapping services for Great Britain and is a world-leading provider of geospatial solutions. OS location data and expertise has helped governments make smarter decisions, businesses gain valuable data insight, and everyone experience the world outside for over 225 years.
+
+We offer fantastic benefits in return for joining us as our JavaScript Software Engineer:
+
+Competitive salary plus performance-related bonus
+Competitive pension scheme
+Flexible working options
+25 days annual leave - (30 days after five years) bank holidays and an extra 3 over Christmas
+Plus, a suite of excellent additional benefits
+About the JavaScript Software Engineer role:
+
+As our projects continue to grow, we are looking for talented JavaScript Software Engineer to join our thriving team. You’ll collaboratively work within an Agile delivery methodology, to deliver customer solutions at pace and to high standards.
+
+A varied role, where you will work on delivering customer requirements, debugging and testing applications. With a strong background in JavaScript programming, you will encompass a wide variety of technologies and frameworks such as: JavaScript, HTML, CSS, React and it would be desirable to have skills in Node.JS and exposure to Azure infrastructure.
+
+We are keen to also invest in you, as such we encourage development and training to allow you to grow within your role. In addition, there are paths for development opportunities within the business as your expertise flourish.
+
+What we’re looking for in our JavaScript Software Engineer:
+
+Proven experience in JavaScript, HTML, CSS, React
+A track record in problem resolution, selection of technical solutions and applications
+Experience of providing fully capable software development and configuration in your area of expertise
+A proven track record of delivering Frontend applications using JavaScript
+Knowledge of modern engineering best practice like TDD, BDD and Automated Testing
+A proven track record in iterative and incremental development
+Experience in Redux, Node.JS and Azure infrastructure is desirable
+Our growing Technology and Design team plays a key role in ensuring OS is at the cutting edge of geospatial capability and is looking for people to join them. Its mission is to work across the business to provide customer centric design and technology services.

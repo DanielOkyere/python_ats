@@ -1,0 +1,577 @@
+type,skill,job,cv
+general,,33,2
+hard,software,9,8
+hard,development,8,1
+general,engineer,6,3
+general,sept,6,0
+general,ghana,6,0
+general,2022,5,0
+hard,python,4,3
+general,software engineer,4,2
+hard,design,4,1
+hard,technical,4,0
+general,i,4,0
+general,skills,3,2
+general,engineering,3,1
+general,various,3,0
+general,backend,3,0
+general,present,3,0
+general,developed,3,0
+general,march,3,0
+general,2021,3,0
+general,restful,3,0
+general,graphql,3,0
+general,developer,3,0
+general, present,3,0
+soft,experience,2,5
+hard,test,2,1
+hard,c,2,0
+hard,aws,2,0
+hard,linux,2,0
+hard,ruby,2,0
+soft,team,2,0
+general,5,2,0
+general,client,2,0
+general,needs,2,0
+general,documented,2,0
+general,apps,2,0
+general,unit,2,0
+general,developers,2,0
+general,alxholberton,2,0
+general,javascript,2,0
+general,api,2,0
+general,agile,2,0
+general,high,2,0
+general,july,2,0
+general,designed,2,0
+general,implemented,2,0
+general,db,2,0
+general,salesforce,2,0
+general,accra,2,0
+general,angular,2,0
+general,google,2,0
+general,sept 2022,2,0
+general,2022 ,2,0
+general,march 2022,2,0
+general,python javascript,2,0
+general,backend engineer,2,0
+general,sept 2021,2,0
+general,2021 ,2,0
+general, sept,2,0
+general, designed,2,0
+general, implemented,2,0
+general,ghana software,2,0
+general,2022  present,2,0
+hard,data,1,6
+hard,applications,1,3
+hard,implementation,1,1
+general,3,1,1
+general,years,1,1
+general,have,1,1
+general,focus,1,1
+general,degree,1,1
+general,products,1,1
+general,projects,1,1
+general,3 years,1,1
+general,software engineering,1,1
+hard,algorithms,1,0
+hard,communication,1,0
+hard,emerging technologies,1,0
+hard,technical guidance,1,0
+hard,operating systems,1,0
+hard,web,1,0
+hard,analytics,1,0
+hard,coding,1,0
+hard,education,1,0
+hard,data structures,1,0
+hard,programming,1,0
+soft,communication,1,0
+soft,creative,1,0
+soft,problemsolving,1,0
+soft,attention to detail,1,0
+soft,attention,1,0
+soft,education,1,0
+general,peach,1,0
+general,lily,1,0
+general,cl,1,0
+general,lapaz,1,0
+general,233,1,0
+general,549,1,0
+general,5027,1,0
+general,48,1,0
+general,danielkwameokyere101gmailcom,1,0
+general,daniel,1,0
+general,k,1,0
+general,okyere,1,0
+general,long,1,0
+general,thin,1,0
+general,rectangle,1,0
+general,divide,1,0
+general,sections,1,0
+general,document,1,0
+general,summary,1,0
+general,customerfocused,1,0
+general,professional,1,0
+general,superior,1,0
+general,expertise,1,0
+general,platforms,1,0
+general,automation,1,0
+general,tools,1,0
+general,am,1,0
+general,well,1,0
+general,experienced,1,0
+general,operating,1,0
+general,systems,1,0
+general,scripting,1,0
+general,also,1,0
+general,play,1,0
+general,key,1,0
+general,roles,1,0
+general,frontend,1,0
+general,expert,1,0
+general,site,1,0
+general,reliability,1,0
+general,understand,1,0
+general,meet,1,0
+general,employer,1,0
+general,delivering,1,0
+general,highly,1,0
+general,functional,1,0
+general,robust,1,0
+general,easy,1,0
+general,use,1,0
+general,simplus,1,0
+general,usa,1,0
+general,cases,1,0
+general,scenarios,1,0
+general,lightning,1,0
+general,updated,1,0
+general,programs,1,0
+general,user,1,0
+general,codes,1,0
+general,are,1,0
+general,accordance,1,0
+general,specification,1,0
+general,provide,1,0
+general,guidance,1,0
+general,coachmentor,1,0
+general,tests,1,0
+general,increased,1,0
+general,resilience,1,0
+general,collaborate,1,0
+general,integrate,1,0
+general,technologybusiness,1,0
+general,layers,1,0
+general,remote,1,0
+general,pair,1,0
+general,driven,1,0
+general,structures,1,0
+general,gather,1,0
+general,address,1,0
+general,requirements,1,0
+general,enyata,1,0
+general,lead,1,0
+general,successful,1,0
+general,follow,1,0
+general,emerging,1,0
+general,technologies,1,0
+general,trends,1,0
+general,futureproof,1,0
+general,activities,1,0
+general,principles,1,0
+general,testingtdd,1,0
+general,mvc,1,0
+general,pattern,1,0
+general,htmlcss,1,0
+general,meticulous,1,0
+general,detail,1,0
+general,aptitude,1,0
+general,thinking,1,0
+general,expresso,1,0
+general,inc,1,0
+general,nigeria,1,0
+general,nov,1,0
+general,built,1,0
+general,typescript,1,0
+general,server,1,0
+general,processes,1,0
+general,endpoints,1,0
+general,schema,1,0
+general,designs,1,0
+general,amalitech,1,0
+general,associate,1,0
+general,aug,1,0
+general,2020,1,0
+general,sfra,1,0
+general,lightening,1,0
+general,run,1,0
+general,diagnostic,1,0
+general,checks,1,0
+general,repair,1,0
+general,defects,1,0
+general,managed,1,0
+general,deliver,1,0
+general,market,1,0
+general,ready,1,0
+general,freelance,1,0
+general,2019,1,0
+general,schemas,1,0
+general,planned,1,0
+general,website,1,0
+general,converted,1,0
+general,mockups,1,0
+general,usable,1,0
+general,presence,1,0
+general,2023,1,0
+general,university,1,0
+general,bsc,1,0
+general,biomedical,1,0
+general,2013,1,0
+general,2017,1,0
+general,html5,1,0
+general,nodejs,1,0
+general,react,1,0
+general,puppet,1,0
+general,nginx,1,0
+general,haproxy,1,0
+general,mysql,1,0
+general,mongodb,1,0
+general,domain,1,0
+general,configurations,1,0
+general,certificates,1,0
+general,commerce,1,0
+general,cloud,1,0
+general,nextjs,1,0
+general,africa,1,0
+general,certificate,1,0
+general,5 peach,1,0
+general,peach lily,1,0
+general,lily cl,1,0
+general,cl lapaz,1,0
+general,233 549,1,0
+general,549 5027,1,0
+general,5027 48,1,0
+general,daniel k,1,0
+general,k okyere,1,0
+general,long thin,1,0
+general,thin rectangle,1,0
+general,divide sections,1,0
+general,document ,1,0
+general,customerfocused software,1,0
+general,software professional,1,0
+general,years experience,1,0
+general,superior communication,1,0
+general,communication skills,1,0
+general,various technical,1,0
+general,technical platforms,1,0
+general,automation tools,1,0
+general,tools i,1,0
+general,i am,1,0
+general,am well,1,0
+general,well experienced,1,0
+general,linux operating,1,0
+general,python i,1,0
+general,i also,1,0
+general,also play,1,0
+general,play key,1,0
+general,key roles,1,0
+general,frontend development,1,0
+general,backend development,1,0
+general,development i,1,0
+general,i have,1,0
+general,have expert,1,0
+general,expert skills,1,0
+general,site reliability,1,0
+general,reliability engineering,1,0
+general,engineering i,1,0
+general,i understand,1,0
+general,employer needs,1,0
+general,delivering highly,1,0
+general,highly functional,1,0
+general,functional robust,1,0
+general,use applications,1,0
+general,simplus usa,1,0
+general,usa software,1,0
+general, developed,1,0
+general,documented test,1,0
+general,test cases,1,0
+general,lightning apps,1,0
+general,apps ,1,0
+general, updated,1,0
+general,updated programs,1,0
+general,user needs,1,0
+general,developed codes,1,0
+general,provide technical,1,0
+general,technical team,1,0
+general,design unit,1,0
+general,unit tests,1,0
+general,increased software,1,0
+general,software resilience,1,0
+general,integrate technologybusiness,1,0
+general,technologybusiness layers,1,0
+general,alxholberton remote,1,0
+general,remote software,1,0
+general, pair,1,0
+general,pair programming,1,0
+general,test driven,1,0
+general,driven development,1,0
+general,python ,1,0
+general, implementation,1,0
+general,c python,1,0
+general,address technical,1,0
+general,design requirements,1,0
+general,enyata ghana,1,0
+general,ghana lead,1,0
+general,lead backend,1,0
+general, successful,1,0
+general,successful design,1,0
+general,graphql api,1,0
+general,api ,1,0
+general,follow emerging,1,0
+general,software trends,1,0
+general,futureproof development,1,0
+general,development activities,1,0
+general,principles unit,1,0
+general,unit testingtdd,1,0
+general,testingtdd mvc,1,0
+general,mvc design,1,0
+general,design pattern,1,0
+general,pattern htmlcss,1,0
+general,htmlcss agile,1,0
+general,agile software,1,0
+general,software development,1,0
+general, meticulous,1,0
+general,high attention,1,0
+general, high,1,0
+general,high degree,1,0
+general,creative thinking,1,0
+general,expresso inc,1,0
+general,inc nigeria,1,0
+general,nigeria backend,1,0
+general,july 2021,1,0
+general, nov,1,0
+general,nov 2022,1,0
+general,built restful,1,0
+general,restful api,1,0
+general, documented,1,0
+general,documented various,1,0
+general,various server,1,0
+general,server processes,1,0
+general,endpoints ,1,0
+general,implemented db,1,0
+general,db schema,1,0
+general,schema designs,1,0
+general,amalitech ghana,1,0
+general,ghana associate,1,0
+general,associate software,1,0
+general,aug 2020,1,0
+general,2020 ,1,0
+general, salesforce,1,0
+general,salesforce development,1,0
+general,sfra ,1,0
+general, lightening,1,0
+general,lightening apps,1,0
+general, run,1,0
+general,run diagnostic,1,0
+general,diagnostic checks,1,0
+general,repair defects,1,0
+general, managed,1,0
+general,managed team,1,0
+general,5 developers,1,0
+general,deliver market,1,0
+general,market ready,1,0
+general,ready products,1,0
+general,freelance ghana,1,0
+general,sept 2019,1,0
+general,2019 ,1,0
+general,implemented various,1,0
+general,various client,1,0
+general,client projects,1,0
+general,developed db,1,0
+general,db schemas,1,0
+general, planned,1,0
+general,planned website,1,0
+general,website development,1,0
+general,development converted,1,0
+general,converted mockups,1,0
+general,usable web,1,0
+general,web presence,1,0
+general,alxholberton ghana,1,0
+general,2022 march,1,0
+general,march 2023,1,0
+general,2023 accra,1,0
+general,ghana ghana,1,0
+general,ghana bsc,1,0
+general,bsc biomedical,1,0
+general,biomedical engineering,1,0
+general,sept 2013,1,0
+general,2013 ,1,0
+general, july,1,0
+general,july 2017,1,0
+general,2017 accra,1,0
+general,c ruby,1,0
+general,ruby python,1,0
+general,javascript html5,1,0
+general,html5 nodejs,1,0
+general,nodejs react,1,0
+general,react angular,1,0
+general,angular restful,1,0
+general,restful graphql,1,0
+general,graphql aws,1,0
+general,aws agile,1,0
+general,agile puppet,1,0
+general,puppet nginx,1,0
+general,nginx haproxy,1,0
+general,haproxy linux,1,0
+general,linux mysql,1,0
+general,mysql mongodb,1,0
+general,mongodb domain,1,0
+general,domain configurations,1,0
+general,salesforce commerce,1,0
+general,commerce cloud,1,0
+general,cloud developer,1,0
+general,angular ,1,0
+general, nextjs,1,0
+general,nextjs ,1,0
+general,google africa,1,0
+general,africa developer,1,0
+general,aws developer,1,0
+general,google analytics,1,0
+general,5 peach lily,1,0
+general,peach lily cl,1,0
+general,lily cl lapaz,1,0
+general,233 549 5027,1,0
+general,549 5027 48,1,0
+general,daniel k okyere,1,0
+general,long thin rectangle,1,0
+general,customerfocused software professional,1,0
+general,3 years experience,1,0
+general,superior communication skills,1,0
+general,various technical platforms,1,0
+general,automation tools i,1,0
+general,tools i am,1,0
+general,i am well,1,0
+general,am well experienced,1,0
+general,linux operating systems,1,0
+general,python i also,1,0
+general,i also play,1,0
+general,also play key,1,0
+general,play key roles,1,0
+general,backend development i,1,0
+general,development i have,1,0
+general,i have expert,1,0
+general,have expert skills,1,0
+general,site reliability engineering,1,0
+general,reliability engineering i,1,0
+general,engineering i understand,1,0
+general,delivering highly functional,1,0
+general,highly functional robust,1,0
+general,simplus usa software,1,0
+general,usa software engineer,1,0
+general,sept 2022 ,1,0
+general,documented test cases,1,0
+general,lightning apps ,1,0
+general, updated programs,1,0
+general,provide technical guidance,1,0
+general,design unit tests,1,0
+general,increased software resilience,1,0
+general,integrate technologybusiness layers,1,0
+general,alxholberton remote software,1,0
+general,remote software engineer,1,0
+general,march 2022 ,1,0
+general, pair programming,1,0
+general,test driven development,1,0
+general,c python javascript,1,0
+general,enyata ghana lead,1,0
+general,ghana lead backend,1,0
+general,lead backend engineer,1,0
+general,sept 2021 ,1,0
+general,2021  sept,1,0
+general, sept 2022,1,0
+general, successful design,1,0
+general,graphql api ,1,0
+general,follow emerging technologies,1,0
+general,futureproof development activities,1,0
+general,principles unit testingtdd,1,0
+general,unit testingtdd mvc,1,0
+general,testingtdd mvc design,1,0
+general,mvc design pattern,1,0
+general,design pattern htmlcss,1,0
+general,pattern htmlcss agile,1,0
+general,htmlcss agile software,1,0
+general,agile software development,1,0
+general, high degree,1,0
+general,expresso inc nigeria,1,0
+general,inc nigeria backend,1,0
+general,nigeria backend engineer,1,0
+general,july 2021 ,1,0
+general,2021  nov,1,0
+general, nov 2022,1,0
+general,built restful api,1,0
+general, documented various,1,0
+general,documented various server,1,0
+general,various server processes,1,0
+general, implemented db,1,0
+general,implemented db schema,1,0
+general,db schema designs,1,0
+general,amalitech ghana associate,1,0
+general,ghana associate software,1,0
+general,associate software engineer,1,0
+general,aug 2020 ,1,0
+general,2020  sept,1,0
+general, sept 2021,1,0
+general, salesforce development,1,0
+general,sfra  lightening,1,0
+general, lightening apps,1,0
+general, run diagnostic,1,0
+general,run diagnostic checks,1,0
+general, managed team,1,0
+general,deliver market ready,1,0
+general,market ready products,1,0
+general,freelance ghana software,1,0
+general,ghana software engineer,1,0
+general,sept 2019 ,1,0
+general,2019  present,1,0
+general, implemented various,1,0
+general,implemented various client,1,0
+general,various client projects,1,0
+general,developed db schemas,1,0
+general, planned website,1,0
+general,planned website development,1,0
+general,website development converted,1,0
+general,development converted mockups,1,0
+general,usable web presence,1,0
+general,alxholberton ghana software,1,0
+general,ghana software engineering,1,0
+general,march 2022 march,1,0
+general,2022 march 2023,1,0
+general,march 2023 accra,1,0
+general,ghana ghana bsc,1,0
+general,ghana bsc biomedical,1,0
+general,bsc biomedical engineering,1,0
+general,sept 2013 ,1,0
+general,2013  july,1,0
+general, july 2017,1,0
+general,july 2017 accra,1,0
+general,c ruby python,1,0
+general,ruby python javascript,1,0
+general,python javascript html5,1,0
+general,javascript html5 nodejs,1,0
+general,html5 nodejs react,1,0
+general,nodejs react angular,1,0
+general,react angular restful,1,0
+general,angular restful graphql,1,0
+general,restful graphql aws,1,0
+general,aws agile puppet,1,0
+general,agile puppet nginx,1,0
+general,puppet nginx haproxy,1,0
+general,nginx haproxy linux,1,0
+general,haproxy linux mysql,1,0
+general,linux mysql mongodb,1,0
+general,mysql mongodb domain,1,0
+general,mongodb domain configurations,1,0
+general,salesforce commerce cloud,1,0
+general,commerce cloud developer,1,0
+general,angular  nextjs,1,0
+general, nextjs ,1,0
+general,google africa developer,1,0

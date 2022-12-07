@@ -2,3 +2,4 @@
 .idea
 *.Identifier
 __pycache__/
+.vscode/

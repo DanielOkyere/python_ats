@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=IBM+Plex+Sans&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=Lobster+Two&family=Ubuntu&display=swap');
 
 :root {
   --primary-color: #2d3c54;
@@ -19,13 +19,16 @@ html {
 body {
   font-family: 'Anek Devanagari', sans-serif;
   color: var(--secondary-color);
+  background-color: #121212;
 }
 
 header {
   background-color: var(--primary-color);
-  display: flex;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
   font-size: 2.3rem;
   padding: 1.5rem 0 1.5rem;
 }
@@ -37,6 +40,7 @@ header {
 }
 
 .header__logo h3 {
+  font-family: 'Lobster Two', cursive;
   letter-spacing: 0.3rem;
 }
 
@@ -49,6 +53,7 @@ header {
   align-items: center;
   justify-content: center;
   list-style-type: none;
+  font-size: 2rem;
 }
 
 .header__items a {
@@ -65,7 +70,7 @@ header {
   content: '';
   display: block;
   width: 0;
-  height: 2px;
+  height: 1px;
   background: #fff;
   transition: width 300ms;
 }
@@ -75,6 +80,9 @@ header {
 }
 
 .form {
+  display: flex;
+  align-items: center;
+  justify-content: end;
   padding-right: 2rem;
 }
 

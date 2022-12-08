@@ -10,6 +10,7 @@ import docx2txt
 
 app = Flask(__name__)
 
+
 @app.route('/ats', strict_slashes=False, methods=['GET', 'POST'])
 def ats():
     """ Renders the ATS Page """

@@ -17,7 +17,7 @@ class User(BaseModel, Base):
     """
     Defines the class declarations for user
     """
-    __tablename__ = 'users'
+    __tablename__ = 'user'
     username = Column(String(128), nullable=False)
     password = Column(String(128), nullable=False)
     email = Column(String(128), nullable=False)

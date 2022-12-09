@@ -11,7 +11,7 @@ from models.user import User
 from models.application import Applications
 from models.role import Role
 from models.base import BaseModel
-import shlex 
+import shlex
 
 classes = {
     "User": User,
@@ -21,18 +21,18 @@ classes = {
 }
 
 
-class ATSCommand(cmd.cmd):
+class ATSCommand(cmd.Cmd):
     """ATS CMD"""
     prompt = '(ATS)'
-    
+
     def do_EOF(self, arg):
         """Exits console"""
         return True
-    
+
     def emptyLine(self):
         """overwriting the emptyline method"""
         return False
-    
+
     def _key_value_parser(self, args):
         """Creates a dictionary from a list of strings"""
         new_dict = {}
@@ -53,7 +53,7 @@ class ATSCommand(cmd.cmd):
                             continue
                     new_dict[key] = value
         return new_dict
-    
+
     def do_create(self, arg):
         """Creates a new instance of a class"""
         args = arg.split()
@@ -159,6 +159,6 @@ class ATSCommand(cmd.cmd):
                 print("** instance id missing **")
         else:
             print("** class doesn't exist **")
-            
+
 if __name__ == '__main__':
     ATSCommand().cmdloop()

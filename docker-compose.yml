@@ -1,18 +1,17 @@
 version: '3'
 services:
   app:
-    build: flask
+    build: ./
     volumes:
-      -python_ats:python_ats:rw
+      - ./:/usr/src/python_ats
     ports:
-      -"8080:5000"
+      - 8080:3000
 
-    proxy:
-      build: nginx
-      restart: always
-      ports:
-        - 80:80
-      depends_on:
-        app
-  volumes:
-    app:    
+  proxy:
+    build: nginx
+    restart: always
+    ports:
+      - 80:80
+    depends_on:
+      - app
+

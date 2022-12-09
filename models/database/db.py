@@ -12,8 +12,16 @@ import sqlalchemy
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session
 from sqlalchemy.orm import sessionmaker
+from models.user import User
+from models.base import BaseModel, Base
+from models.application import Applications
+from models.role import Role
+import models
 
-classes = {"User": 'User'}
+classes = {"User": User,
+           "Role": Role,
+           "Applications": Applications
+           }
 
 class DBStorage:
     """

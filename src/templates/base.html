@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css' )}}"/>
     <link rel="stylesheet" href="{{url_for('static', filename='styles/media_querry.css')}}" />
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/footer.css')}}"/>
     {% block head %}
     <title>{% block title %}{% endblock %} ATS</title>
     {% endblock %}
@@ -13,10 +14,10 @@
 <body>
 {% include 'main.html' %}
 <div id="content">{% block content %}{% endblock %}</div>
-<div>
+<footer>
     {% block footer %}
     &copy; Copyright 2020 by <a href="https://danielokyere.tech">Daniel Okyere</a>.
     {% endblock %}
-</div>
+</footer>
 </body>
 </html>

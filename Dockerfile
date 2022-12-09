@@ -1,13 +1,13 @@
 # syntax=docker/dockerfile:1
 
-FROM python:3.8-slim-buster
+FROM python:3.10-bullseye
 
-WORKDIR /python_ats
+WORKDIR .
 
-COPY requirements.txt requirements.txt
+COPY . /usr/src/app
 
-RUN pip3 install -r requirements.txt
+WORKDIR /usr/src/app
 
-COPY . .
+RUN pip3 install -r /usr/src/app/requirements.txt
 
 CMD [ "python3", "-m", "src.ats_flask", "run", "--host=0.0.0.0" ]

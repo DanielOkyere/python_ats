@@ -37,13 +37,13 @@ class ATSCommand(cmd.Cmd):
         """Creates a dictionary from a list of strings"""
         new_dict = {}
         for arg in args:
-             if "=" in arg:
-                 kvp = arg.split('=', 1)
-                 key = kvp[0]
-                 value = kvp[1]
-                 if value[0] == value[-1] == '"':
-                     value = shlex.split(value)[0].replace('_', ' ')
-                 else:
+            if "=" in arg:
+                kvp = arg.split('=', 1)
+                key = kvp[0]
+                value = kvp[1]
+                if value[0] == value[-1] == '"':
+                    value = shlex.split(value)[0].replace('_', ' ')
+                else:
                     try:
                         value = int(value)
                     except:
@@ -159,6 +159,7 @@ class ATSCommand(cmd.Cmd):
                 print("** instance id missing **")
         else:
             print("** class doesn't exist **")
+
 
 if __name__ == '__main__':
     ATSCommand().cmdloop()

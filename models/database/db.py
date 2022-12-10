@@ -55,6 +55,8 @@ class DBStorage:
                                              ATS_DB_HOST,
                                              ATS_DB_NAME))
 
+        if ATS_ENV == "test":
+            Base.metadata.drop_all(self.__engine)
 
     def all(self, cls=None):
         """Query on current database for class
@@ -65,10 +67,10 @@ class DBStorage:
         """
         new_dict = {}
         for clss in classes:
-            if cls is None or cls is classes[clss] or clss is clss:
+            if cls is None or cls is classes[clss] or cls is clss:
                 objs = self.__session.query(classes[clss]).all()
                 for obj in objs:
-                    key = obj.__class__.__name__+ '.' + obj.id
+                    key = obj.__class__.__name__ + '.' + obj.id
                     new_dict[key] = obj
 
         return (new_dict)
@@ -88,6 +90,38 @@ class DBStorage:
 
     def reload(self):
         """Reloads all data from database"""
+        Base.metadata.create_all(self.__engine)
         sess_factory = sessionmaker(bind=self.__engine, expire_on_commit=False)
         Session = scoped_session(sess_factory)
         self.__session = Session
+
+    def close(self):
+        """call remove() method on the private session attribute"""
+        self.__session.remove()
+
+    def get(self, cls, id):
+        """ Returns the object based on the class name and its ID,
+        or None if not found
+        """
+        if cls not in classes.values():
+            return None
+
+        all_cls = models.storage.all(cls)
+        for v in all_cls.values():
+            if v.id == id:
+                return v
+
+        return None
+
+    def count(self, cls=None):
+        """Count the number of objects in storage"""
+        all_clss = classes.values()
+        if not cls:
+            count = 0
+            for clas in all_clss:
+                count += len(models.storage.all(cls).values())
+        else:
+            count = len(models.storage.all(cls).values())
+
+        return count
+

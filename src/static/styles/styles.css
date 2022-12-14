@@ -19,11 +19,17 @@ html {
 body {
   font-family: 'Anek Devanagari', sans-serif;
   color: var(--secondary-color);
-  background-color: #121212;
+}
+
+.container {
+  max-width: 1512px;
+  margin: 0 auto;
+}
+.header__section {
+  background-color: var(--primary-color);
 }
 
 header {
-  background-color: var(--primary-color);
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 2fr 3fr;
@@ -124,4 +130,48 @@ header {
 
 .form__btn:active {
   transform: scale(0.98);
+}
+
+/* /// *** HERO SEACTION *** /// */
+
+.hero__heading {
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  padding: 2rem 2rem;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.07);
+}
+
+.hero__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid var(--primary-color);
+  /* padding: 0 3rem 0 3rem; */
+}
+
+.hero__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__img img {
+  width: 100%;
+  border-radius: 15px;
+  border: var(--secondary-color) 2px solid;
+}
+
+.hero__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
 }

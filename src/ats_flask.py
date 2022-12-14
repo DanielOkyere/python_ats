@@ -10,6 +10,7 @@ import docx2txt
 
 app = Flask(__name__)
 
+
 @app.route('/ats', strict_slashes=False, methods=['GET', 'POST'])
 def ats():
     """ Renders the ATS Page """
@@ -37,4 +38,3 @@ def ats():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=3000, debug=True)
-    app.config['SECRET_KEY'] = '9dd21f5256b89957bd773445af45bad791fa258f72a3b04f'

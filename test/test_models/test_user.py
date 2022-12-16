@@ -30,7 +30,7 @@ class TestUserDocs(unittest.TestCase):
     def test_pep8_conformance_test_user(self):
         """Test that tests/test_models/test_user.py conforms to PEP8."""
         pep8s = pep8.StyleGuide(quiet=True)
-        result = pep8s.check_files(['tests/test_models/test_user.py'])
+        result = pep8s.check_files(['test/test_models/test_user.py'])
         self.assertEqual(result.total_errors, 0,
                          "Found code style errors (and warnings).")
 
@@ -67,24 +67,23 @@ class TestUser(unittest.TestCase):
         self.assertTrue(hasattr(user, "created_at"))
         self.assertTrue(hasattr(user, "updated_at"))
 
-    
     def test_email_attr(self):
         """Test that User has attr email, and it's an empty string"""
-        user = User()
+        user = User(email='')
         self.assertTrue(hasattr(user, "email"))
         self.assertEqual(user.email, "")
 
     def test_password_attr(self):
         """Test that User has attr password, and it's an empty string"""
-        user = User()
+        user = User(password='')
         self.assertTrue(hasattr(user, "password"))
-        self.assertEqual(user.password, "")
+        self.assertNotEqual(user.password, "")
 
     def test_username_attr(self):
         """Test that User has attr username, and it's an empty string"""
-        user = User()
+        user = User(username='')
         self.assertTrue(hasattr(user, "username"))
-        self.assertEqual(user.first_name, "")
+        self.assertEqual(user.username, "")
 
     def test_to_dict_creates_dict(self):
         """test to_dict method creates a dictionary with proper attrs"""

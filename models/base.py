@@ -14,8 +14,15 @@ time = "%Y-%m-%dT%H:%M:%S.%f"
 
 Base = declarative_base()
 
+
 class BaseModel:
-    """Base model class"""
+    """Base model class
+
+    Attributes:
+        id(sqlalchemy String): The BaseModel id.
+        created_at (sqlalchemy DateTime): The datetime at creation.
+        updated_at (sqlalchemy DateTime): The datetime of last update.
+    """
     id = Column(String(60), primary_key=True)
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow)
@@ -26,6 +33,7 @@ class BaseModel:
             for k, v in kwargs.items():
                 if k != "__class__":
                     setattr(self, k, v)
+
             if kwargs.get("created_at", None) and type(self.created_at) is str:
                 self.created_at = datetime.strptime(kwargs["created_at"], time)
             else:

@@ -20,6 +20,11 @@ If you would like to try it out, all you would need to do is download the code f
 - All files should begin with `#!/usr/bin/env python3`
 - Use `Pep8` Style of coding
 
+## Environment Variables
+- ATS_DB_USER 
+- ATS_DB_PWD 
+- ATS_DB_HOST 
+- ATS_DB_NAME
 
 ## Example
 ```commandline
@@ -31,6 +36,17 @@ $ ./ats resume.txt job_desc.txt
 ```
 ## Demo
 The project can be found live on [www.danielokyere.tech/python_ats/home](#)
+
+## Test
+To test this application the following packages are need
+- Nltk Packages
+- Unittest
+
+Test can be run with in root directory with b
+```bash
+ATS_DB_USER=daniel ATS_DB_PWD=dan13l ATS_DB_HOST=localhost ATS_DB_NAME=python_ats python3 -m unittest discover test
+```
+
 ## Project Management
 Currently all user stories are being handled by team using the current trello board for the project. It can be viewed [here](https://trello.com/invite/b/4MqO3faK/ATTI747d5b3c69b03796c7765c207a6949987A05C02D/free-application-tracking-system)
 

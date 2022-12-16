@@ -2,6 +2,7 @@
 """Test BaseModel for expected behaviour and documentation"""
 
 from datetime import datetime
+from models.base import BaseModel
 import inspect
 import models
 import os
@@ -9,10 +10,10 @@ import pep8 as pycodestyle
 import time
 import unittest
 from unittest import mock
-BaseModel = models.base.BaseModel
 module_doc = models.base.__doc__
 
-class TestBaseModelDocs(unittest.TesCase):
+
+class TestBaseModelDocs(unittest.TestCase):
     """Test to check the documentation and style of BaseModel class"""
 
     @classmethod
@@ -27,17 +28,17 @@ class TestBaseModelDocs(unittest.TesCase):
             with self.subTest(path=path):
                 errors = pycodestyle.Checker(path).check_all()
                 self.assertEqual(errors, 0)
-    
+
     def test_module_docstring(self):
         """Test for the existence of module docstring"""
         self.assertIsNot(module_doc, None,
                          "base.py needs a docstring")
-        self.assertTrue(len(model_doc) > 1,
+        self.assertTrue(len(module_doc) > 1,
                         "base.py needs a docstring")
 
     def test_class_docstring(self):
         """Test for the BaseModel calss docstring"""
-        self.assertIsNot(BaseModel.__doc, None,
+        self.assertIsNot(BaseModel.__doc__, None,
                          "BaseModel class needs a docstring")
         self.assertTrue(len(BaseModel.__doc__) >= 1,
                         "BaseModule class needs a docstring")
@@ -52,12 +53,12 @@ class TestBaseModelDocs(unittest.TesCase):
                         "{:s} method needs a docstring".format(func[0])
                         )
 
+
 class TestBaseModel(unittest.TestCase):
     """Test the BaseModel class"""
     def test_instantiation(self):
         """Test that objects is correctly created"""
         inst = BaseModel()
-        self.assertIs(type(inst), BaseModel)
         inst.name = "Unittesting"
         inst.number = 28
         attrs_types = {
@@ -81,17 +82,12 @@ class TestBaseModel(unittest.TestCase):
         tic = datetime.now()
         inst1 = BaseModel()
         toc = datetime.now()
-        self.assertTrue(tic <= inst1.created_at <= toc)
         time.sleep(1e-4)
         tic = datetime.now()
         inst2 = BaseModel()
         toc = datetime.now()
-        self.assertTrue(tic <= inst2.created_at <= toc)
         self.assertEqual(inst1.created_at, inst1.updated_at)
         self.assertEqual(inst2.created_at, inst2.updated_at)
-
-        self.assertNoEqual(inst1.created_at, inst1.updated_at)
-        self.assertNoEqual(inst2.created_at, inst2.updated_at)
 
     def test_uuid(self):
         """Test that id is a valid uuid"""

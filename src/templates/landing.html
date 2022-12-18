@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}ATS Home{% endblock %}
+{% block head %}
+{{ super()}}
+{% endblock %}
+{% block content %}
+<section class="hero__section">
+    <div class="hero container">
+      <div class="hero__heading">
+        <h1>Application Tracking</h1>
+      </div>
+      <div class="hero__content">
+        <div class="hero__img">
+          <img src="{{url_for('static', filename='images/hero.jpg')}}" alt="Hero Image, Students who are looking for a job" />
+        </div>
+        <div class="hero__text">
+          <h3>Easy skill based assessment for all.</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

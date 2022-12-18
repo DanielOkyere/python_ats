@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Free Ats</title>
-</head>
-<body>
-<h1>This is a free ats system under development</h1>
+{% extends "base.html" %}
+{% block title %} Check Skill {% endblock %}
+{% block head %}
+{{ super()}}
+{% endblock %}
+{% block content %} 
 <div class="main_page">
 
     <form action="/ats" method="post">
@@ -37,5 +35,4 @@
         {{ table[2] * 100 }}%
         {% endif %}
     </div>
-</body>
-</html>
+{% endblock %}

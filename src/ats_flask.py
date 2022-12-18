@@ -35,6 +35,10 @@ def ats():
     else:
         return render_template('ats_home.html', table=None)
 
+@app.route("/", strict_slashes=False)
+def home():
+    """Returns Landing Page"""
+    return render_template('landing.html')
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=3000, debug=True)

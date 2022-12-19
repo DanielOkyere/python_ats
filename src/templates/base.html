@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css' )}}"/>
     <link rel="stylesheet" href="{{url_for('static', filename='styles/media_querry.css')}}" />
     <link rel="stylesheet" href="{{url_for('static', filename='styles/footer.css')}}"/>
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/output.css')}}"/>
+    <script src="https://kit.fontawesome.com/97034effda.js" crossorigin="anonymous"></script>
     {% block head %}
     <title>{% block title %}{% endblock %}</title>
     {% endblock %}
 </head>
-<body>
+<body >
 {% include 'main.html' %}
 <div id="content">{% block content %}{% endblock %}</div>
 <footer>
@@ -19,5 +21,6 @@
     &copy; Copyright 2020 by <a href="https://danielokyere.tech">Daniel Okyere</a>.
     {% endblock %}
 </footer>
+<script src="{{url_for('static', filename='scripts/index.js')}}"></script>
 </body>
 </html>

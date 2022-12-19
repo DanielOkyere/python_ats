@@ -1,24 +1,56 @@
 {% block navbar %}
 <section class="header__section">
-  <header class="header" id="home">
-    <div class="header__logo">
-      <h3>ATS</h3>
-    </div>
+    <header class="header" id="home">
+      <div class="container">
 
-    <nav class="header__nav">
-      <ul class="header__items">
-        <a href="/"> <li class="header__item">Home</li></a>
-        <a href="/ats"><li class="header__item">Application</li></a>
-        <a href="/about"> <li class="header__item">About Us</li></a>
-      </ul>
-    </nav>
+        <nav
+            class="flex items-center justify-between flew-wrap p-6"
+            id="nav__items"
+        >
+            <div class="header__logo flex items-center flex-shrink-0 mr-6">
+                <h3>ATS</h3>
+            </div>
+            <div
+           
+                class="w-full flex-grow  md:flex md:items-center md:w-auto"
+            >
+                <ul class="header__items items-center  md:flex md:w-auto">
+                    <a href="/"> <li class="header__item">Home</li></a>
+                    <a href="/ats"><li class="header__item">Application</li></a>
+                    <a href="/about"> <li class="header__item">About Us</li></a>
+                </ul>
+            </div>
+            <div class="header__form" id="header_form">
+                <form class="form" id="form">
+                    <div class="hidden lg:flex">
+                        <input
+                            type="email"
+                            class="form__input"
+                            placeholder="Email"
+                        />
+                        <input
+                            type="password"
+                            class="form__input"
+                            placeholder="Password"
+                        />
+                    </div>
+                    <div class="hidden md:flex">
+                        <button class="form__btn">Login</button>
+                        <button class="form__btn">Sign Up</button>
+                    </div>
+                </form>
+            </div>
 
-    <form class="form" id="form">
-      <input type="email" class="form__input" placeholder="Email" />
-      <input type="password" class="form__input" placeholder="Password" />
-      <button class="form__btn">Login</button>
-      <button class="form__btn">Sign Up</button>
-    </form>
-  </header>
+            <button
+                class="flex md:hidden items-center px-3 py-2 border rounded justify-end"
+            >
+                <i
+                    class="fa-solid fa-bars menu_icon"
+                    onclick="toggleMenu()"
+                ></i>
+            </button>
+        </nav>
+      </div>
+    </header>
 </section>
 {% endblock %}

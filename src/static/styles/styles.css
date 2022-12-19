@@ -31,8 +31,6 @@ body {
 
 header {
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 2fr 3fr;
   align-items: center;
   justify-content: start;
   font-size: 2.3rem;
@@ -48,6 +46,7 @@ header {
 .header__logo h3 {
   font-family: 'Lobster Two', cursive;
   letter-spacing: 0.3rem;
+  cursor: pointer;
 }
 
 .header__logo:hover {
@@ -175,3 +174,12 @@ header {
   font-size: 3rem;
   letter-spacing: 0.1rem;
 }
+
+.horizontal_rule {
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

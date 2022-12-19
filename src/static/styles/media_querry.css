@@ -2,353 +2,49 @@
   --primary-color: #2d3c54;
   --secondary-color: #e9d9a9;
 }
+.show_menu{
+  display: block;
+  width: 100%;
+  height: 50vh;
+  top:0;
+  left: 0;
+  z-index: 10;
+}
 
-@media (min-width: 1280px) {
-  button.form__btn {
-    margin-left: 0.4rem;
-    font-size: 1.6rem;
-    padding: 0.7rem 0;
-    margin: 0;
-    width: 95px;
+.hide_menu{
+  display: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* .header__nav{
+     display: none; 
+  } */
+
+ .header__items, .header__item {
+  display: block;
+ }
+
+
+  .menu_icon{
+    margin-right: 8px;
+    cursor: pointer;
   }
-  .form__input,
-  .form__btn {
-    font-size: 1.1rem;
-    width: 180px;
-  }
 
-  .form__btn {
-    margin: 0;
-  }
-
-  /* /// *** HERO SEACTION *** /// */
-
-  .hero__content {
-    padding: 0 5rem 4rem 5rem;
-  }
-
-  .hero__img img {
-    width: 90%;
+  .header {
+    display: flex;
+    flex-flow: row wrap;
   }
 }
 
-@media (max-width: 1285px) {
-  header {
-    grid-template-columns: 1fr 2fr 3fr;
-  }
-  button.form__btn {
-    margin-left: 0.4rem;
-    font-size: 1.8rem;
-    padding: 0.7rem 0;
-    margin: 0;
-    width: 95px;
-  }
-  .form__input,
-  .form__btn {
-    font-size: 1.2rem;
-    width: 180px;
-  }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
 
-  .form__btn {
-    margin: 0;
-  }
-}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
 
-@media (max-width: 1199.98px) {
-  header {
-    grid-template-columns: 1fr 2fr 2fr;
-    font-size: 2rem;
-  }
-  .header__logo,
-  .header__nav {
-    margin-bottom: 1rem;
-  }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
 
-  .header__item {
-    font-size: 2.2rem;
-    padding-left: 3rem;
-  }
-
-  .header__nav {
-    grid-column: span 2/4;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-  }
-
-  .form {
-    padding: 2rem 0 0 0;
-    grid-column: span 3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 2rem;
-    border-top: var(--secondary-color) 1px solid;
-    overflow-x: hidden;
-  }
-
-  .form__input::placeholder {
-    font-size: 15px;
-  }
-
-  .form__btn {
-    margin-left: 0;
-  }
-
-  button.form__btn {
-    margin-left: 0.4rem;
-    font-size: 1.8rem;
-    padding: 0.7rem 0;
-    margin: 0;
-  }
-  .form__input,
-  .form__btn {
-    font-size: 1.2rem;
-    width: 180px;
-  }
-
-  /* /// *** HERO SEACTION *** /// */
-
-  .hero__heading {
-    margin-top: 3.5rem;
-    font-size: 2rem;
-  }
-
-  .hero__content {
-    grid-template-columns: 1fr;
-    margin: 0 7rem;
-    border: none;
-    border-bottom: 1px solid var(--primary-color);
-  }
-
-  .hero__img img {
-    width: 90%;
-  }
-
-  .hero__text {
-    margin-top: 2rem;
-    font-size: 2.5rem;
-    padding: 2rem;
-  }
-}
-
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-  header {
-    grid-template-columns: 1fr 2fr 2fr;
-    font-size: 2rem;
-  }
-  .header__logo,
-  .header__nav {
-    margin-bottom: 1rem;
-  }
-
-  .header__item {
-    font-size: 2.2rem;
-    padding-left: 3rem;
-  }
-
-  .header__nav {
-    grid-column: span 2/4;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-  }
-
-  .form {
-    padding: 2rem 0 0 0;
-    grid-column: span 3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 2rem;
-    border-top: var(--secondary-color) 1px solid;
-    overflow-x: hidden;
-  }
-
-  .form__input::placeholder {
-    font-size: 15px;
-  }
-
-  .form__btn {
-    margin-left: 0;
-  }
-
-  button.form__btn {
-    margin-left: 0.4rem;
-    font-size: 1.8rem;
-    padding: 0.7rem 0;
-    margin: 0;
-  }
-  .form__input,
-  .form__btn {
-    font-size: 1.2rem;
-    width: 180px;
-  }
-
-  /* /// *** HERO SEACTION *** /// */
-
-  .hero__heading {
-    margin-top: 3.5rem;
-    font-size: 2rem;
-  }
-
-  .hero__content {
-    grid-template-columns: 1fr;
-    margin: 0 7rem;
-    border: none;
-    border-bottom: 1px solid var(--primary-color);
-  }
-
-  .hero__text {
-    margin-top: 2rem;
-    font-size: 2.5rem;
-    padding: 2rem;
-  }
-}
-
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-  header {
-    grid-template-columns: 1fr 2fr 2fr;
-    font-size: 2rem;
-  }
-  .header__logo,
-  .header__nav {
-    margin-bottom: 1rem;
-  }
-
-  .header__item {
-    font-size: 2.2rem;
-    padding-left: 2rem;
-  }
-
-  .header__nav {
-    grid-column: span 2/4;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-  }
-
-  .form {
-    padding: 2rem 0 0 0;
-    grid-column: span 3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 2rem;
-    border-top: var(--secondary-color) 1px solid;
-    overflow-x: hidden;
-  }
-
-  .form__input::placeholder {
-    font-size: 15px;
-  }
-
-  .form__btn {
-    margin-left: 0;
-  }
-
-  button.form__btn {
-    margin-left: 0.4rem;
-    font-size: 1.4rem;
-    padding: 0.7rem 0;
-    margin: 0;
-  }
-  .form__input,
-  .form__btn {
-    font-size: 0.7rem;
-    width: 150px;
-  }
-
-  /* /// *** HERO SEACTION *** /// */
-
-  .hero__heading {
-    margin-top: 3.5rem;
-    font-size: 1.5rem;
-  }
-
-  .hero__content {
-    grid-template-columns: 1fr;
-    margin: 0 7rem;
-    border: none;
-    border-bottom: 1px solid var(--primary-color);
-  }
-
-  .hero__text {
-    margin-top: 2rem;
-    font-size: 2rem;
-    padding: 2rem;
-  }
-}
-
-/* ///////////////////////////////// */
-@media (max-width: 575.98px) {
-  header {
-    grid-template-columns: 1fr 2fr 2fr;
-    font-size: 2rem;
-  }
-
-  .header__logo,
-  .header__nav {
-    margin-bottom: 1rem;
-  }
-
-  .header__item {
-    font-size: 2rem;
-    padding: 0 0.8rem 0 0;
-  }
-
-  .header__nav {
-    grid-column: span 2/4;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-
-  .form {
-    padding: 2rem 0 0 0;
-    grid-column: span 3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 2rem;
-    border-top: var(--secondary-color) 1px solid;
-    overflow-x: hidden;
-  }
-
-  .form__input::placeholder {
-    font-size: 15px;
-  }
-
-  button.form__btn {
-    margin-left: 0.4rem;
-    font-size: 1.4rem;
-    padding: 0.7rem 0;
-    margin: 0;
-  }
-  .form__input,
-  .form__btn {
-    font-size: 0.7rem;
-    width: 120px;
-  }
-
-  /* /// *** HERO SEACTION *** /// */
-  .hero__content {
-    grid-template-columns: 1fr;
-    margin: 0 2rem;
-    border: none;
-    border-bottom: 1px solid var(--primary-color);
-  }
-
-  .hero__heading {
-    margin-top: 5rem;
-    font-size: 1.1rem;
-  }
-
-  .hero__text {
-    margin-top: 2rem;
-    font-size: 1.4rem;
-    padding: 2rem;
-  }
-}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

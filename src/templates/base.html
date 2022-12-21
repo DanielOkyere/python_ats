@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css' )}}"/>
-    <link rel="stylesheet" href="{{url_for('static', filename='styles/media_querry.css')}}" />
-    <link rel="stylesheet" href="{{url_for('static', filename='styles/footer.css')}}"/>
-    <link rel="stylesheet" href="{{url_for('static', filename='styles/output.css')}}"/>
+    <link rel="stylesheet" href="../static/styles/styles.css?{{doc_id}}"/>
+    <link rel="stylesheet" href="../static/styles/media_querry.css?{{doc_id}}" />
+    <link rel="stylesheet" href="../static/styles/footer.css?{{doc_id}}"/>
+    <link rel="stylesheet" href="../static/styles/output.css?{{doc_id}}"/>
     <script src="https://kit.fontawesome.com/97034effda.js" crossorigin="anonymous"></script>
     {% block head %}
     <title>{% block title %}{% endblock %}</title>

@@ -172,6 +172,72 @@ header {
   align-items: center;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 3rem;
+  font-size: 2.5rem;
   letter-spacing: 0.1rem;
+}
+
+/* /// *** FINDOUT SEACTION *** /// */
+.findOout,
+.landing {
+  margin-top: 3rem;
+}
+.findOut__contents {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: var(--primary-color);
+  margin: 2rem 0 2rem 0;
+}
+
+.findOut__paragraph {
+  padding: 3rem 0 3rem 0;
+}
+
+.findOut__paragraph p,
+.landing__paragraph p {
+  color: #fff;
+  font-size: 1.8rem;
+  text-align: justify;
+}
+
+.findOut__Btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  border: none;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 2rem 5rem;
+  font-size: 2rem;
+  border-radius: 20px;
+  border: #fff 1px solid;
+}
+
+.landing__contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 0 5rem 5rem 5rem;
+}
+
+.landing__contents p {
+  color: #000;
+}
+
+.landing__image-container,
+.landing__paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing__image {
+  width: 100%;
 }

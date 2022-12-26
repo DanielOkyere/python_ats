@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css' )}}"/>
-    <link rel="stylesheet" href="{{url_for('static', filename='styles/media_querry.css')}}" />
-    <link rel="stylesheet" href="{{url_for('static', filename='styles/footer.css')}}"/>
+    <link rel="stylesheet" href="../static/styles/styles.css?{{doc_id}}" />
+    <link
+      rel="stylesheet"
+      href="../static/styles/media_querry.css?{{doc_id}}"
+    />
+    <link rel="stylesheet" href="../static/styles/footer.css?{{doc_id}}" />
+    <link
+      rel="stylesheet"
+      href="../static/styles/media_querry.css?{{doc_id}}"
+    />
     {% block head %}
     <title>{% block title %}{% endblock %}</title>
     {% endblock %}
-</head>
-<body>
-{% include 'main.html' %}
-<div id="content">{% block content %}{% endblock %}</div>
-<footer>
-    {% block footer %}
-    &copy; Copyright 2020 by <a href="https://danielokyere.tech">Daniel Okyere</a>.
-    {% endblock %}
-</footer>
-</body>
+  </head>
+  <body>
+    {% include 'main.html' %}
+    <div id="content">{% block content %}{% endblock %}</div>
+    <footer>
+      {% block footer %} &copy; Copyright 2020 by
+      <a href="https://danielokyere.tech">Daniel Okyere</a>. {% endblock %}
+    </footer>
+  </body>
 </html>

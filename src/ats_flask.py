@@ -7,8 +7,10 @@ from flask import Flask, render_template
 from flask import request
 from src.Keyword_Extractor import Extractor
 import docx2txt
+import uuid
 
 app = Flask(__name__)
+document_id = uuid.uuid4()
 
 
 @app.route('/ats', strict_slashes=False, methods=['GET', 'POST'])
@@ -31,14 +33,14 @@ def ats():
         k = Extractor('job_desc.txt', 'resume.txt')
         k.makeTable()
         table = k.sendCumlatives()
-        return render_template('ats_home.html', table=table)
+        return render_template('ats_home.html', table=table, doc_id=document_id)
     else:
-        return render_template('ats_home.html', table=None)
+        return render_template('ats_home.html', table=None, doc_id=document_id)
 
 @app.route("/", strict_slashes=False)
 def home():
     """Returns Landing Page"""
-    return render_template('landing.html')
+    return render_template('landing.html', doc_id=document_id)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=3000, debug=True)

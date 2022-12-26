@@ -12,6 +12,10 @@ import uuid
 app = Flask(__name__)
 document_id = uuid.uuid4()
 
+@app.errorhandler(404)
+def page_not_found(e):
+    """ Renders the page not found """
+    return render_template('404.html'), 404
 
 @app.route('/ats', strict_slashes=False, methods=['GET', 'POST'])
 def ats():

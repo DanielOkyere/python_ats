@@ -3,4 +3,5 @@
 *.Identifier
 __pycache__/
 .vscode/
+/myenv/
 /node_modules/

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=Lobster+Two&family=Ubuntu&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #2d3c54;
+  --secondary-color: #e9d9a9;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Anek Devanagari', sans-serif;
+}
+
+.container {
+  max-width: 1512px;
+  margin-top: 5rem;
+  padding: 0 20rem 20rem 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about__heading {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4rem;
+  letter-spacing: 0.2px;
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+}
+
+.about__us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.person {
+  background-color: var(--primary-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3rem;
+}
+
+.person:nth-child(2) {
+  margin: 2rem 0;
+}
+
+.person__img {
+  width: 100%;
+  border: 1px var(--secondary-color) solid;
+  border-radius: 20px;
+}
+
+.text__container {
+  position: relative;
+}
+
+.text__container,
+.img__container {
+  color: #fff;
+  padding: 2rem;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 4rem;
+  letter-spacing: 0.2px;
+}
+
+.bio {
+  font-weight: 300;
+  font-size: 1.2rem;
+  letter-spacing: 0.2px;
+  text-align: justify;
+}
+
+.links a,
+.links i {
+  color: var(--secondary-color);
+  font-size: 2.2rem;
+}
+
+.portfolio {
+  text-decoration: none;
+}
+
+.links {
+  /* position: absolute; */
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  bottom: 2rem;
+}
+
+/* /////// ABOUT MEDIA QUERIES /////////// */
+
+@media (max-width: 1115px) {
+  .container {
+    padding: 0 10rem 20rem 10rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .container {
+    padding: 0 5rem 20rem 5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .container {
+    padding: 0 5rem 20rem 5rem;
+  }
+  .person {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .text__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .container {
+    padding: 0 1rem 20rem 1rem;
+  }
+  .person {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .text__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

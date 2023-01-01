@@ -1,37 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="about.css" />
-    <title>About Us</title>
-  </head>
-  <body class="container">
+{% extends "base.html" %}
+{% block title %} About Us {% endblock %}
+{% block head %}
+{{ super()}}
+{% endblock %}
+{% block content %} 
+  <div class="container">
     <h1 class="about__heading">About Us.</h1>
     <div class="about__us">
       <div class="person">
         <div class="img__container">
-          <img class="person__img" src="danny.jpg" alt="" />
+          <img class="person__img" src="../static/images/danny.jpg" alt="daniel's image" />
         </div>
         <div class="text__container">
           <h3 class="name">Daniel Okyere</h3>
           <p class="bio">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus rem
-            illum quod molestias voluptatum quae consequatur, eius doloribus,
-            amet dicta alias vel itaque odit totam error optio fugit ullam
-            reiciendis architecto adipisci nihil cum enim minus. Sunt, quae
-            voluptatum. Tenetur voluptatibus ea rerum velit atque laudantium nam
-            fugit at voluptates. Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit. Natus rem illum quod molestias voluptatum quae
-            consequatur, eius doloribus, amet dicta alias vel itaque odit totam
-            error optio fugit ullam reiciendis architecto adipisci nihil cum
-            enim minus. Sunt, quae voluptatum. Tenetur voluptatibus ea rerum
-            velit atque laudantium nam fugit at voluptates.
+           Daniel is a full stack software engineer with focus on the backend.
+           He is currently based in Ghana.
+           <br>
+           Daniel is over 3+ years experienced working on production ready projects.
+           He has also contributed to a number of open source projects.
+           <br>
+           Fun fact about Daniel, he likes to workout, build and play games. 
+           Feel free to checkout his profile. via these links below.
+           He can build your next project 
           </p>
           <div class="links">
             <a
@@ -43,7 +34,7 @@
             <a href="https://github.com/DanielOkyere" target="_blank"
               ><i class="bx bxl-github"></i
             ></a>
-            <a href="#" target="_blank"
+            <a href="https://www.linkedin.com/in/dkokyere/" target="_blank"
               ><i class="bx bxl-linkedin-square"></i
             ></a>
           </div>
@@ -51,7 +42,7 @@
       </div>
       <div class="person">
         <div class="img__container">
-          <img class="person__img" src="mawuli.jpg" alt="" />
+          <img class="person__img" src="../static/images/mawuli.jpg" alt="" />
         </div>
         <div class="text__container">
           <h3 class="name">Gabriel Ahiamata</h3>
@@ -83,7 +74,7 @@
           </div>
         </div>
       </div>
-      <div class="person">
+      <!-- <div class="person">
         <div class="img__container">
           <img class="person__img" src="danny.jpg" alt="" />
         </div>
@@ -112,7 +103,7 @@
             ></a>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
-  </body>
-</html>
+  </div>
+{% endblock %}

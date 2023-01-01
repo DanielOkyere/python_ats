@@ -46,5 +46,10 @@ def home():
     """Returns Landing Page"""
     return render_template('landing.html', doc_id=document_id)
 
+@app.route("/about", strict_slashes=False)
+def about():
+    """Return about Page"""
+    return render_template('about.html', doc_id=document_id)
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=3000, debug=True)

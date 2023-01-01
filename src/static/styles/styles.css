@@ -38,6 +38,7 @@ body {
   justify-content: space-between;
   font-size: 2.3rem;
   margin:0 auto;
+  z-index: 100;
 }
 
 /* New Landing Css */
@@ -285,6 +286,12 @@ a {
   text-align: justify;
 }
 
+.landing__image_container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .findOut__Btn {
   display: flex;
   align-items: center;
@@ -310,16 +317,13 @@ a {
   padding: 0 5rem 5rem 5rem;
 }
 
-.landing__contents{
- background-image: url('../images/hero_cover.jpg');
- background-size: cover;
- height: 400px;
-}
-
-.landing__image-container{
+.landing__image_container{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url('../images/hero_cover.jpg');
+  background-size: cover;
+  height: 400px;
 }
 
 .landing__image {
@@ -350,4 +354,25 @@ a {
 .cta_btn {
 	width: fit-content;
 	align-self: center;
+}
+.table_container {
+  display: flex;
+  justify-content: center;
+  min-height: fit-content;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  gap: 2.5rem;
+  flex-direction: column;
+}
+
+.table_container {
+  font-size: 2.5rem;
+}
+
+.table_description{
+  align-self: flex-start;
+}
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+  color: var(--primary-color);
 }

@@ -46,7 +46,7 @@ def home():
     """Returns Landing Page"""
     return render_template('landing.html', doc_id=document_id)
 
-@app.route("/about", strict_slashes=False)
+@app.route("/ats/about-us", strict_slashes=False)
 def about():
     """Return about Page"""
     return render_template('about.html', doc_id=document_id)

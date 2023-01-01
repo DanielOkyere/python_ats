@@ -23,10 +23,10 @@ def ats():
     if request.method == 'POST':
         # read data to temp files
         resume = request.form['resume']
-        txt_resume = open("texts/resume.txt", "w+")
+        txt_resume = open("./src/texts/resume.txt", "w+")
         txt_resume.write(resume)
         job_desc = request.form['job_desc']
-        txt_jd = open("texts/job_desc.txt", "w+")
+        txt_jd = open("./src/texts/job_desc.txt", "w+")
         txt_jd.write(job_desc)
 
         # close written files
@@ -34,7 +34,7 @@ def ats():
         txt_resume.close()
 
         # perform keyword extraction
-        k = Extractor('job_desc.txt', 'resume.txt')
+        k = Extractor('./src/texts/job_desc.txt', './src/texts/resume.txt')
         k.makeTable()
         table = k.sendCumlatives()
         return render_template('ats_home.html', table=table, doc_id=document_id)
@@ -45,6 +45,11 @@ def ats():
 def home():
     """Returns Landing Page"""
     return render_template('landing.html', doc_id=document_id)
+
+@app.route("/about", strict_slashes=False)
+def about():
+    """Return about Page"""
+    return render_template('about.html', doc_id=document_id)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=3000, debug=True)

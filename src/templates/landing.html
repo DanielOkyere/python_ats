@@ -1,70 +1,43 @@
 {% extends 'base.html' %} {% block title %}ATS Home{% endblock %} {% block head
 %} {{ super()}} {% endblock %} {% block content %}
 <section class="hero__section">
-  <div class="hero container">
-    <div class="hero__heading">
-      <h1>Application Tracking</h1>
-    </div>
-    <div class="hero__content">
-      <div class="hero__img">
-        <img
-          src="{{url_for('static', filename='images/hero.jpg')}}"
-          alt="Hero Image, Students who are looking for a job"
-        />
-      </div>
-      <div class="hero__text">
-        <h3>Easy skill based assessment for all.</h3>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="findOout">
-  <div class="findOut__contents container">
-    <div class="findOut__paragraph">
-      <p>
-        The process of looking for a new job is in itself a full-time job. There
-        is an overwhelming amount of job postings and many times it is difficult
-        to determine which jobs are the best matches to your skills and
-        preferences. It is important to do some research about the jobs before
-        applying and furthermore, before accepting a job offer. On the other
-        hand, job postings also receive an overwhelming amount of applications,
-        and it is well-known[citation needed] that the companies use Application
-        Tracking Systems (ATS) to weed out those candidates that are not a good
-        match for the job.
-      </p>
-    </div>
-    <div class="findOut__Btn">
-      <button class="btn">Find Out</button>
-    </div>
-  </div>
-</section>
+    <div class="hero">
+        <div class="hero__image"></div>
 
+        <div class="hero__text">
+            <div class="hero__heading">
+                <h1>Application Skills Test</h1>
+            </div>
+            <div class="column_flex">
+                <p class="column_flex_paragraph">
+                    The process of job search is very overwhelming. <br />And
+                    usually applicants are confused as to wether their skills
+                    match the job. <br />
+                    We provide you with quantifiable information indicating how
+                    much you match a job.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="findOout" id="findOut">
+    <div class="findOut__contents">
+        <div class="findOut__paragraph">
+            <div class="find_out_head">It takes only 3 steps to do that</div>
+            <div class="vertical_line"></div>
+            <div>
+                <ol class="steps_list">
+                    <li>Grab content of your Resume</li>
+                    <li>Get content of Job Description</li>
+                    <li>Wait for results</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="landing">
-  <div class="landing__contents container">
-    <div class="landing__image-container">
-      <img
-        class="landing__image"
-        src="{{url_for('static', filename='images/landing.jpg')}}"
-        alt=""
-      />
+    <div class="landing__image_container">
+        <h3><a href="/ats" class="btn form__btn">Try It Now</a></h3>
     </div>
-    <div class="landing__paragraph">
-      <p>
-        The basic idea is that the ATS searches the applicant's resume for
-        predetermined keywords and for a particular language (mostly hard and
-        soft skills) and then only saves those resumes with the highest match.
-        For this reason, each time that you want to apply for a job, you should
-        change your resume to emphasize those things that the company is looking
-        for. To put an example, if I am looking into a data science job, I
-        should emphasize the work that I have done working with data, while if
-        it is a machine learning job, then I should emphasize in my resume the
-        machine learning algorithms that I have used. This all sounds simple
-        enough, and it sounds that you would just need a small set of resumes
-        and use a different one for each type of job. However, the job postings
-        are all different, and some of them use some words more than others, and
-        your resume should match that language too.
-      </p>
-    </div>
-  </div>
 </section>
 {% endblock %}

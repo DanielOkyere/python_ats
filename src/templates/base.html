@@ -14,6 +14,11 @@
       rel="stylesheet"
       href="../static/styles/media_querry.css?{{doc_id}}"
     />
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="../static/styles/about.css?{{doc_id}}" />
     {% block head %}
     <title>{% block title %}{% endblock %}</title>
     {% endblock %}
@@ -22,8 +27,7 @@
     {% include 'main.html' %}
     <div id="content">{% block content %}{% endblock %}</div>
     <footer>
-      {% block footer %} &copy; Copyright 2020 by
-      <a href="https://danielokyere.tech">Daniel Okyere</a>. {% endblock %}
+      {% block footer %} &copy; Copyright 2022 {% endblock %}
     </footer>
   </body>
 </html>

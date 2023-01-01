@@ -1,59 +1,99 @@
 5 peach lily cl, Lapaz
 (233) 549 5027 48
 daniel.kwame.okyere101@gmail.com
-Daniel K. Okyere A long, thin rectangle to divide sections of the document 
-
-
+Daniel K. Okyere
 SUMMARY
-Customer-focused software professional with 3+ years experience with superior communication skills and expertise in various technical platforms and automation tools. I am well experienced with linux operating systems with scripting in ruby and python. I also play key roles in frontend development and backend development. I have expert skills in site reliability engineering. I understand and meet both client and employer needs with the focus on delivering highly functional, robust and easy to use applications.
+Customer-focused software professional with 3+ years experience with superior
+communication skills and expertise in various technical platforms and automation
+tools. I am well experienced with linux operating systems with scripting in ruby
+and python. I also play key roles in frontend development and backend
+development. I have expert skills in site reliability engineering. I understand
+and meet both client and employer needs with the focus on delivering highly
+functional, robust and easy to use applications.
 EXPERIENCE
 Simplus, USA— Software Engineer
 SEPT 2022 - PRESENT
-* Developed and documented test cases and scenarios for Lightning apps. 
-* Updated programs as per user needs and developed codes that are in accordance to specification.
+●
+●
+Developed and documented test cases and scenarios for Lightning apps.
+Updated programs as per user needs and developed codes that are in
+accordance to specification.
 Alx-Holberton, Remote— Software Engineer
 MARCH 2022 - PRESENT
-* Pair programming and coding with test driven development in python. 
-* Implementation of Data structures and algorithms with C, Python, Javascript.
-* Automation of server with puppet and shell scripting.
-* Successful in deploying static and dynamic web application with fabric
-* Successful setups for load balancers and servers with HAProxy/NGINX.
-* Successfully secured remote servers with TLS.
-* Effectively analyzed data packets to ensure maximum uptime on the server.
-* Developed and maintained MySQL Database.
-* Containerised applications with Docker.
+●
+●
+●
+●
+●
+●
+●
+●
+●
+Pair programming and coding with test driven development in python.
+Implementation of Data structures and algorithms with C, Python,
+Javascript.
+Automation of server with puppet and shell scripting.
+Successful in deploying static and dynamic web application with fabric
+Successful setups for load balancers and servers with HAProxy/NGINX.
+Successfully secured remote servers with TLS.
+Effectively analyzed data packets to ensure maximum uptime on the server.
+Developed and maintained MySQL Database.
+Containerised applications with Docker.
 Enyata, Ghana— Lead Backend Engineer
 SEPT 2021 - SEPT 2022
-* Successful design and development of RESTful and GraphQL Api. 
-* Managed technical team in Agile project development.
-* Successful implementation of DB Schema designs and Tables.
-* Effective Test driven implementation coupled with CI/CD.
-* Designed a robust web server with javascript and elastic search. 
+●
+●
+●
+●
+●
+Successful design and development of RESTful and GraphQL Api.
+Managed technical team in Agile project development.
+Successful implementation of DB Schema designs and Tables.
+Effective Test driven implementation coupled with CI/CD.
+Designed a robust web server with javascript and elastic search.
 Expresso Inc, Nigeria— Backend Engineer
-JULY 2021 - NOV 2022
-* Designed and built RESTful Api with Typescript and GraphQl
-* Documented various server processes and endpoints 
-* Implemented DB Schema designs.
+JULY 2021 - NOV 2022●
+●
+●
+Designed and built RESTful Api with Typescript and GraphQl
+Documented various server processes and endpoints
+Implemented DB Schema designs.
 Amalitech, Ghana— Associate Software Engineer
 AUG 2020 - SEPT 2021
-* Salesforce development on SFRA & Lightening Apps
-* Run diagnostic checks and repair defects.
-* Managed team of 5 developers to deliver market ready products.
+●
+●
+●
+Salesforce development on SFRA & Lightening Apps
+Run diagnostic checks and repair defects.
+Managed team of 5 developers to deliver market ready products.
 Freelance, Ghana— Software Engineer
 SEPT 2019 - PRESENT
-* Implemented various client projects
-* Designed and developed Db Schemas.
-* Planned website development, converted mockups into usable web presence.
+●
+●
+●
+Implemented various client projects
+Designed and developed Db Schemas.
+Planned website development, converted mockups into usable web presence.
 EDUCATION
 Alx-Holberton, Ghana— Software Engineering
 MARCH 2022- MARCH 2023, ACCRA
 University of Ghana, Ghana— Bsc. Biomedical Engineering
 SEPT 2013 - JULY 2017, ACCRA
 SKILLS
-C, Ruby, Python, Javascript, Html5, NodeJS, React, Angular, RESTFul, GraphQl, AWS, Agile, Puppet, Nginx, HAProxy, Linux, MySQL, MongoDB, Domain Configurations.
+C, Ruby, Python, Javascript, Html5, NodeJS, React, Angular, RESTFul, GraphQl,
+AWS,
+Agile,
+Puppet,
+Nginx,
+HAProxy,
+Linux,
+MySQL,
+MongoDB,
+Domain
+Configurations.
 CERTIFICATES
 Salesforce Commerce cloud developer
-Angular & Nextjs 
+Angular & Nextjs
 Google Africa Developer
 Certificate for AWS Developer
 Google Analytics.

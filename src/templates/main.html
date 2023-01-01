@@ -1,24 +1,31 @@
 {% block navbar %}
-<section class="header__section">
-  <header class="header" id="home">
-    <div class="header__logo">
-      <h3>ATS</h3>
-    </div>
 
-    <nav class="header__nav">
-      <ul class="header__items">
-        <a href="/"> <li class="header__item">Home</li></a>
-        <a href="/ats"><li class="header__item">Application</li></a>
-        <a href="/about"> <li class="header__item">About Us</li></a>
-      </ul>
-    </nav>
+<nav class="nav_bar">
+        <div class="header__logo">
+            <h3>ATS</h3>
+        </div>
+        <div>
+            <ul class="header__items">
+                <a href="/"> <li class="header__item">Home</li></a>
+                <a href="/ats"><li class="header__item">Application</li></a>
+                <a href="/about"> <li class="header__item">About Us</li></a>
+            </ul>
+        </div>
+        <div>
+            <a href="https://github.com/DanielOkyere/python_ats" target="_blank"
+                ><i
+                    class="bx bxl-github nav__giticon"
+                    style="color: #e9d9a9"
+                ></i
+            ></a>
+        </div>
+</nav>
 
-    <form class="form" id="form">
+<!-- <form class="form" id="form">
       <input type="email" class="form__input" placeholder="Email" />
       <input type="password" class="form__input" placeholder="Password" />
       <button class="form__btn">Login</button>
       <button class="form__btn">Sign Up</button>
-    </form>
-  </header>
-</section>
+    </form> -->
+
 {% endblock %}

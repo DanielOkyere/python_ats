@@ -1,29 +1,54 @@
-Ordnance Survey are currently looking for a JavaScript Software Engineer to join our team. We embrace a hybrid working model at OS and understand there is no one size fits all in relation to how we work. We have a fantastic HQ in Southampton, Hampshire where you will be required to spend 1 day a month with the remaining time being a personal choice as to whether you work from home, one of our regional offices or spend more time at OSHQ. Ordnance Survey is also able to consider offering fully remote contracts in the appropriate circumstances. You will join us on a full-time, permanent basis and in return, you will receive a competitive salary of £37,511 - £44,130 per annum (depending on experience).
+Our Company
 
-Ordnance Survey (OS) provides national mapping services for Great Britain and is a world-leading provider of geospatial solutions. OS location data and expertise has helped governments make smarter decisions, businesses gain valuable data insight, and everyone experience the world outside for over 225 years.
+Hitachi Vantara combines technology, intellectual property, and industry knowledge to deliver data-managing solutions that help enterprises improve their customers’ experiences, develop new revenue streams, and lower the costs of business. Hitachi Vantara elevates your innovation advantage by combining IT, operational technology (OT) and domain expertise. Join our team and our employee-focused culture and help drive our customers’ data to meaningful customer outcomes.
 
-We offer fantastic benefits in return for joining us as our JavaScript Software Engineer:
+The Role
 
-Competitive salary plus performance-related bonus
-Competitive pension scheme
-Flexible working options
-25 days annual leave - (30 days after five years) bank holidays and an extra 3 over Christmas
-Plus, a suite of excellent additional benefits
-About the JavaScript Software Engineer role:
+Hitachi Vantara is seeking a back-end web developer to join our product development team. We are working to build and release cutting edge web applications as a part of our next generation product portfolio. The candidate will primarily focus on the development and maintenance of server-side logic and support systems to enable responsive and available requests from the front-end. The ideal candidate will also have knowledge of database creation, schema definition, and maintenance. This individual will be an integral part of the team and will work closely with front-end developers. The candidate should have the desire to grow into a full stack developer with a preexisting knowledge of front-end technologies.
 
-As our projects continue to grow, we are looking for talented JavaScript Software Engineer to join our thriving team. You’ll collaboratively work within an Agile delivery methodology, to deliver customer solutions at pace and to high standards.
+Responsibilities
 
-A varied role, where you will work on delivering customer requirements, debugging and testing applications. With a strong background in JavaScript programming, you will encompass a wide variety of technologies and frameworks such as: JavaScript, HTML, CSS, React and it would be desirable to have skills in Node.JS and exposure to Azure infrastructure.
+Design and execute project plans
+Develop and execute unit testing
+Maintain source code
+Define and maintain APIs
+Create and maintain detailed source code and API documentation
 
-We are keen to also invest in you, as such we encourage development and training to allow you to grow within your role. In addition, there are paths for development opportunities within the business as your expertise flourish.
+Skills
 
-What we’re looking for in our JavaScript Software Engineer:
+Ability to work independently, finding solutions to programming problems with minimal oversight
+Ability to work in a team with diverse technical backgrounds
+Ability to provide technical requirements
+Ability to adapt to changing project requirements
+Excellent written and oral communication skills
 
-Proven experience in JavaScript, HTML, CSS, React
-A track record in problem resolution, selection of technical solutions and applications
-Experience of providing fully capable software development and configuration in your area of expertise
-A proven track record of delivering Frontend applications using JavaScript
-Knowledge of modern engineering best practice like TDD, BDD and Automated Testing
-A proven track record in iterative and incremental development
-Experience in Redux, Node.JS and Azure infrastructure is desirable
-Our growing Technology and Design team plays a key role in ensuring OS is at the cutting edge of geospatial capability and is looking for people to join them. Its mission is to work across the business to provide customer centric design and technology services.
+Qualifications
+
+2+ years of Software development work experience
+Degree in Computer Engineering or related discipline
+Experienced in Django development and the Django REST framework
+Familiarity with Node.js, MySQL, and general Python
+Experienced in designing RESTful web services
+Knowledgeable in modern web application design principals
+Experience constructing and ingesting XML and JSON
+
+Not required but a strong plus
+
+Experience working with Salesforce, specifically embedded and/or native applications
+Prior work with web analytics technologies
+
+Our Values
+
+We strive to create an inclusive environment for all and are open to considering home working, compressed/flexible hours and flexible arrangements. Get in touch with us to explore how we might be able to accommodate your specific needs.
+
+With Japanese Roots Going Back Over 100 Years, Our Culture Is Founded On The Values Of Our Parent Company Expressed As The Hitachi Spirit
+
+We are proud to say we are an equal opportunity employer and welcome all applicants for employment without attention to race, colour, religion, sex, sexual orientation, gender identity, national origin, veteran or disability status.
+
+Wa – Harmony, Trust, Respect
+
+Makoto – Sincerity, Fairness, Honesty, Integrity
+
+Kaitakusha-Seishin – Pioneering Spirit, Challenge
+
+“For Colorado only (as required by the Colorado Equal Pay Act): The expected salary for this position in our Colorado office is $100,000 – $150,000. Pay is determined based on a variety of factors including, but not limited to, depth of experience in the practice area. Employees are eligible to participate in Hitachi Vantara's variable pay program, subject to the program’s conditions and restrictions.”

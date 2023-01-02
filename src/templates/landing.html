@@ -1,14 +1,14 @@
 {% extends 'base.html' %} {% block title %}ATS Home{% endblock %} {% block head
 %} {{ super()}} {% endblock %} {% block content %}
-<section class="hero__section">
+<div class="hero__section">
     <div class="hero">
-        <div class="hero__image"></div>
-
+        <div class="hero__image">
+        </div>
         <div class="hero__text">
             <div class="hero__heading">
                 <h1>Application Skills Test</h1>
             </div>
-            <div class="column_flex">
+            <!-- <div class="column_flex">
                 <p class="column_flex_paragraph">
                     The process of job search is very overwhelming. <br />And
                     usually applicants are confused as to wether their skills
@@ -16,14 +16,17 @@
                     We provide you with quantifiable information indicating how
                     much you match a job.
                 </p>
-            </div>
+            </div> -->
         </div>
+
     </div>
-</section>
-<section class="findOout" id="findOut">
+</div>
+<div class="findOout" id="findOut">
     <div class="findOut__contents">
         <div class="findOut__paragraph">
-            <div class="find_out_head">It takes only 3 steps to do that</div>
+            <div class="find_out_head">Ever wondered how much you fit a job description?
+                <br>Find out in just 3 steps.
+            </div>
             <div class="vertical_line"></div>
             <div>
                 <ol class="steps_list">
@@ -34,10 +37,10 @@
             </div>
         </div>
     </div>
-</section>
-<section class="landing">
+</div>
+<div class="landing">
     <div class="landing__image_container">
         <h3><a href="/ats" class="btn form__btn">Try It Now</a></h3>
     </div>
-</section>
+</div>
 {% endblock %}

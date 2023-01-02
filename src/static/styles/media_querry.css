@@ -23,13 +23,6 @@
 
   /* /// *** HERO SEACTION *** /// */
 
-  .hero__content {
-    padding: 0 5rem 4rem 5rem;
-  }
-
-  .hero__img img {
-    width: 85%;
-  }
 
   /* /// *** FINDOUT SEACTION *** /// */
   .findOut__contents {
@@ -324,18 +317,18 @@
     font-size: 1.5rem;
   }
 
-  .hero__content {
+  /* .hero__content {
     grid-template-columns: 1fr;
     margin: 0 7rem;
     border: none;
     border-bottom: 1px solid var(--primary-color);
-  }
+  } */
 
-  .hero__text {
-    margin-top: 2rem;
+  /* .hero__text {
+    /* margin-top: 2rem;
     font-size: 2rem;
-    padding: 2rem;
-  }
+    padding: 2rem; */
+  
 
   /* /// *** FINDOUT SEACTION *** /// */
   .findOut__contents {
@@ -421,17 +414,24 @@
   }
 
   .hero__text {
-    margin-top: 2rem;
-    font-size: 1.2rem;
-    padding: 2rem;
+    flex-direction: column;
+    margin-top:20%;
+  }
+
+  .hero__section{
+    min-height: max-content;
   }
 
   /* /// *** FINDOUT SEACTION *** /// */
-  .findOut__contents {
-    grid-template-columns: 1fr;
-    padding: 0 2rem;
+  .findOut__paragraph {
+    display: flex;
+    flex-direction: column;
   }
 
+  .column_container{
+    display:flex;
+    flex-direction: column;
+  }
   .btn {
     padding: 1rem 2.5rem;
     font-size: 2rem;

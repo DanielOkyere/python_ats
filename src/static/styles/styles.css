@@ -42,24 +42,22 @@ body {
 }
 
 /* New Landing Css */
-.hero {
+.hero__section {
   width: 100%;
-  height: 500px;
-}
-.hero__image{
   background-image: url('../images/application_banner.jpg');
   background-position: center;
   background-size: cover;
-  filter: blur(8px);
+  backdrop-filter: blur(10px);
   height: 100%;
 }
+
 
 .hero__text{
   top: 50%;
   left: 50%;
-  z-index: 2;
-  transform: translate(-50%, -50%);
-  position: absolute;
+  /* z-index: 2; */
+  /* transform: translate(-50%, -50%); */
+  /* position: absolute; */
   width: fit-content;
 
 }
@@ -71,6 +69,8 @@ body {
   border: 3px solid #f1f1f1;
   text-align: justify;
   border-radius: 1.5em;
+  flex-grow: 0;
+  align-self: flex-end;
 }
 
 .column_flex_paragraph{
@@ -245,14 +245,14 @@ a {
 
 
 /* /// *** FINDOUT SEACTION *** /// */
-.findOout,
+/* .findOout,
 .landing {
   margin-top: 3rem;
-}
+} */
 .findOut__contents {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 2em;
   background-color: var(--primary-color);
   margin: 2rem 0 2rem 0;
 }
@@ -286,12 +286,6 @@ a {
   text-align: justify;
 }
 
-.landing__image_container{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .findOut__Btn {
   display: flex;
   align-items: center;
@@ -308,14 +302,7 @@ a {
   border: #fff 1px solid;
 }
 
-.landing__contents {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
-  padding: 0 5rem 5rem 5rem;
-}
+
 
 .landing__image_container{
   display: flex;

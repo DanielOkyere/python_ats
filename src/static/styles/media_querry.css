@@ -441,4 +441,12 @@
   .landing__contents {
     grid-template-columns: 1fr;
   }
+  .nav_bar, .header__items{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
 }

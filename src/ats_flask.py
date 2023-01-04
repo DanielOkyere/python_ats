@@ -41,6 +41,7 @@ def ats():
     else:
         return render_template('ats_home.html', table=None, doc_id=document_id)
 
+@app.route("/", strict_slashes=False)
 @app.route("/home", strict_slashes=False)
 def home():
     """Returns Landing Page"""

@@ -363,3 +363,8 @@ tr:nth-child(even) {
   background-color: #D6EEEE;
   color: var(--primary-color);
 }
+
+/* Chart Canvas */
+.chartCanvas {
+  width: 75%;
+}

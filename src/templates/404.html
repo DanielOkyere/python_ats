@@ -2,6 +2,8 @@
 {% block title %} 404 Not Found {% endblock %}
 {% block head %}
 {{ super() }}
+<link rel="stylesheet" href="../static/styles/styles.css?{{doc_id}}" />
+<link rel="stylesheet" href="../static/styles/media_querry.css?{{doc_id}}" />
 {% endblock %}
 {% block content %}
 <div class="container main_area">

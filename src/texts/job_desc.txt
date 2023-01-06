@@ -1,54 +1,47 @@
-Our Company
+Inorsa is a tech company taking the engineering world by storm by offering automation and management tools this market has never seen before to help our clients build communication infrastructure better, safer, and faster. We are a small team and therefore the day to day responsibilities can be wide ranging depending on the needs of the company. Given this, collaboration and communication skills are key.
 
-Hitachi Vantara combines technology, intellectual property, and industry knowledge to deliver data-managing solutions that help enterprises improve their customers’ experiences, develop new revenue streams, and lower the costs of business. Hitachi Vantara elevates your innovation advantage by combining IT, operational technology (OT) and domain expertise. Join our team and our employee-focused culture and help drive our customers’ data to meaningful customer outcomes.
 
-The Role
+We are looking for a Backend Engineer that also has experience in automation. We are creating an enterprise web application that will be the central hub for infrastructure engineering and also host the communication between clients. We are looking for another member of the team to help in the process of implementation from an established design. The work will focus on backend work for our web portal and internal applications as well as making automation tools for engineers. Ideally we are looking for someone with experience with Typescript, Next.js, and relational databases (PostgreSQL specifically). However, anybody with experience in a similar stack that is willing to learn in a fast paced environment is welcome to apply.
 
-Hitachi Vantara is seeking a back-end web developer to join our product development team. We are working to build and release cutting edge web applications as a part of our next generation product portfolio. The candidate will primarily focus on the development and maintenance of server-side logic and support systems to enable responsive and available requests from the front-end. The ideal candidate will also have knowledge of database creation, schema definition, and maintenance. This individual will be an integral part of the team and will work closely with front-end developers. The candidate should have the desire to grow into a full stack developer with a preexisting knowledge of front-end technologies.
 
-Responsibilities
+In addition to the web application, the cutting edge technology Inorsa is pioneering is the complete automation of creating infrastructure related output based on inputs from clients. We are also looking for someone who is able to assist in this project so having experience in programmatic generation/manipulation of PDF/DXF documents using Python is ideal. However, anybody with 2+ years of work experience with Python is welcome to apply.
 
-Design and execute project plans
-Develop and execute unit testing
-Maintain source code
-Define and maintain APIs
-Create and maintain detailed source code and API documentation
 
-Skills
+Responsibilities:
 
-Ability to work independently, finding solutions to programming problems with minimal oversight
-Ability to work in a team with diverse technical backgrounds
-Ability to provide technical requirements
-Ability to adapt to changing project requirements
-Excellent written and oral communication skills
+Collaborate with engineers, product managers, and designers to build out a web application
+Understand the user and be able to put yourself in their shoes to evolve the product
+Continually improve the technology stack and process to keep us using relevant technologies
+Research and develop parts of the automation flow for generation of structural drawings under mentorship if needed
 
-Qualifications
+We are looking for:
 
-2+ years of Software development work experience
-Degree in Computer Engineering or related discipline
-Experienced in Django development and the Django REST framework
-Familiarity with Node.js, MySQL, and general Python
-Experienced in designing RESTful web services
-Knowledgeable in modern web application design principals
-Experience constructing and ingesting XML and JSON
+Motivated individuals who can think as a user after taking the time to understand them
+Someone who feels a strong sense of ownership for their work and product to continually want to improve it over time
+Opportunistic thinkers who can prioritize a good opportunity when they show up and communicate that to management rather than strictly following the plans at all times
+Technically flexible when given a problem so can work across many different tech stacks as our needs evolve over time as we grow
+Someone who can work on their own when needed and communicate progress efficiently
 
-Not required but a strong plus
+Requirements:
 
-Experience working with Salesforce, specifically embedded and/or native applications
-Prior work with web analytics technologies
+BS or MS in Computer Science or a related field
+2+ years of work experience in the following technologies:Typescript, Next.js (or similar frameworks), PostgreSQL (or other SQL relational databases), Python
+Experience in automation with Python specifically in generating PDF/DXF files is a big plus
+Experience with AWS is a big plus
+Excellent communication and collaboration skills
 
-Our Values
+Perks & Benefits:
 
-We strive to create an inclusive environment for all and are open to considering home working, compressed/flexible hours and flexible arrangements. Get in touch with us to explore how we might be able to accommodate your specific needs.
+Excellent Healthcare + Dental + Vision benefits
+Unlimited PTO
+Few meetings for engineers + No meeting days for focus time
+Flexible work from home policy
+Flexible working hours (We only care that things are getting done on schedule)
+Modern technology stack
+An exceptional, high performing team you will be excited to work with
+Your compensation will include meaningful equity ownership.
 
-With Japanese Roots Going Back Over 100 Years, Our Culture Is Founded On The Values Of Our Parent Company Expressed As The Hitachi Spirit
-
-We are proud to say we are an equal opportunity employer and welcome all applicants for employment without attention to race, colour, religion, sex, sexual orientation, gender identity, national origin, veteran or disability status.
-
-Wa – Harmony, Trust, Respect
-
-Makoto – Sincerity, Fairness, Honesty, Integrity
-
-Kaitakusha-Seishin – Pioneering Spirit, Challenge
-
-“For Colorado only (as required by the Colorado Equal Pay Act): The expected salary for this position in our Colorado office is $100,000 – $150,000. Pay is determined based on a variety of factors including, but not limited to, depth of experience in the practice area. Employees are eligible to participate in Hitachi Vantara's variable pay program, subject to the program’s conditions and restrictions.”
+Featured benefits
+Medical insurance
+Vision insurance
+Dental insurance

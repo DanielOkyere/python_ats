@@ -11,6 +11,9 @@ html {
   font-size: 62.5%;
 }
 
+a {
+	text-decoration: none;
+}
 :root {
   --primary-color: #2d3c54;
   --secondary-color: #e9d9a9;
@@ -82,7 +85,7 @@ body {
 /* ======= HERO SECTION ======= */
 
 .heroSection {
-  background-image: url(hero.jpg);
+  background-image: url(../images/hero.jpg);
   height: 60vh;
   object-fit: cover;
   background-repeat: no-repeat;

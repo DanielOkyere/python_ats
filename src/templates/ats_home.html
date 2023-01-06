@@ -1,68 +1,71 @@
 {% extends "base.html" %} {% block title %} Check Skill {% endblock %} {% block
-head %} {{ super()}} {% endblock %} {% block content %}
+head %} {{ super()}}
+<link rel="stylesheet" href="../static/styles/styles.css?{{doc_id}}" />
+<link rel="stylesheet" href="../static/styles/media_querry.css?{{doc_id}}" />
+{% endblock %} {% block content %}
 <div class="container">
-<form action="/ats" method="post">
-    <div class="main_page">
-        <div class="column_container">
-            <div class="jobsection">
-                <h2>Add Job Description Here</h2>
+    <form action="/ats" method="post">
+        <div class="main_page">
+            <div class="column_container">
+                <div class="jobsection">
+                    <h2>Add Job Description Here</h2>
 
-                <label for="job_desc">Job Description</label>
+                    <label for="job_desc">Job Description</label>
 
-                <br />
+                    <br />
 
-                <textarea
-                    name="job_desc"
-                    id="job_desc"
-                    placeholder="Job Description"
-                    rows="20"
-                    cols="40"
-                >
+                    <textarea
+                        name="job_desc"
+                        id="job_desc"
+                        placeholder="Job Description"
+                        rows="20"
+                        cols="40"
+                    >
 {{ request.form['job_desc']}}</textarea
-                >
-            </div>
+                    >
+                </div>
 
-            <div class="cvsection">
-                <h2>Add Details of resume here</h2>
+                <div class="cvsection">
+                    <h2>Add Details of resume here</h2>
 
-                <label for="resume">CV/Resume Content</label>
+                    <label for="resume">CV/Resume Content</label>
 
-                <br />
+                    <br />
 
-                <textarea
-                    name="resume"
-                    id="resume"
-                    rows="20"
-                    cols="40"
-                    placeholder="Resume"
-                >
+                    <textarea
+                        name="resume"
+                        id="resume"
+                        rows="20"
+                        cols="40"
+                        placeholder="Resume"
+                    >
 {{ request.form['resume'] }}</textarea
-                >
+                    >
+                </div>
             </div>
+
+            <button type="submit" name="submit_btn" class="btn cta_btn">
+                Submit
+            </button>
         </div>
+    </form>
+    <div class="table_container">
+        <h2 class="table_description">Results here</h2>
+        <table class="result_table">
+            {% if table != None %}
 
-        <button type="submit" name="submit_btn" class="btn cta_btn">
-            Submit
-        </button>
+            <tr>
+                <th>Hard Skills(%)</th>
+                <th>Soft Skills(%)</th>
+                <th>General Skills(%)</th>
+            </tr>
+            <tr>
+                <td>{{ table[0] * 100 }}</td>
+                <td>{{ table[1] * 100 }}</td>
+                <td>{{ table[2] * 100 }}</td>
+            </tr>
+            {% endif %}
+        </table>
     </div>
-</form>
-<div class="table_container">
-	<h2 class="table_description">Results here</h2>
-    <table class="result_table">
-        {% if table != None %}
-
-        <tr>
-            <th>Hard Skills(%)</th>
-            <th>Soft Skills(%)</th>
-            <th>General Skills(%)</th>
-        </tr>
-        <tr>
-            <td>{{ table[0] * 100 }}</td>
-            <td>{{ table[1] * 100 }}</td>
-            <td>{{ table[2] * 100 }}</td>
-        </tr>
-        {% endif %}
-    </table>
-</div>
 </div>
 {% endblock %}

@@ -339,6 +339,10 @@ a {
 .cta_btn {
 	width: fit-content;
 	align-self: center;
+  cursor: pointer;
+}
+.text_headings {
+  font-size: 2.5rem;
 }
 .table_container {
   display: flex;

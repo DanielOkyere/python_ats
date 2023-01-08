@@ -117,7 +117,7 @@
   }
 
   .heroSection-contents {
-    padding: 0 1rem 0 1rem;
+    /* padding: 0 1rem 0 1rem; */
   }
 
   .heroSection-contents h6 {
@@ -130,7 +130,7 @@
 
   /* ======= OFFER SECTION ======= */
   .offersSection {
-    margin: 2rem 6rem 0 6rem;
+    /* margin: 2rem 6rem 0 6rem; */
     padding: 0;
   }
 
@@ -143,7 +143,7 @@
   }
 
   .offers-text {
-    order: 2;
+    /* order: 2; */
     margin-bottom: 3rem;
   }
 
@@ -255,7 +255,7 @@
   }
 
   .offers-text {
-    order: 2;
+    /* order: 2; */
     margin-bottom: 3rem;
   }
 

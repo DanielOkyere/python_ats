@@ -4,6 +4,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 html {
@@ -22,7 +23,6 @@ a {
 body {
   font-family: 'Anek Devanagari', sans-serif;
   color: #fff;
-  overflow-x: hidden;
 }
 
 .container {
@@ -249,12 +249,36 @@ body {
 
 /* ======= TEAM SECTION ======= */
 
+@media (max-width: 768px) {
+  .profile-section,
+  .team-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .offers-btn{
+    width: 100%;
+  }
+  .team-text{
+    margin: 0;
+    padding: 1.5rem;
+  }
+  
+}
+
+@media (min-width: 768px) {
+  .profile-section {
+    display: flex;
+    flex-direction: row;
+    padding: 2.5rem;
+  }
+}
 .team-section {
   background-color: var(--primary-color);
 }
 
 .team-text {
-  margin: 0 15rem 0 15rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -275,9 +299,6 @@ body {
 }
 
 .profile-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 0 15rem 0 15rem;
   padding: 3rem 0 3rem 0;
 }
 

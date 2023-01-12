@@ -1,67 +1,66 @@
 {% extends 'base.html' %} {% block title %}ATS Home{% endblock %} {% block head
-%} {{ super()}}
-{% endblock %} {% block content %}
+%} {{ super()}} {% endblock %} {% block content %}
 <section class="heroSection">
-    <div class="heroSection-contents l-container">
-        <h6>Be confident in your application.</h6>
-        <h2>Check Your Resume Against A Job Description.</h2>
-        <h6>Remove all Doubts when applying for a job.</h6>
-    </div>
+  <div class="heroSection-contents l-container">
+    <h6>Be confident in your application.</h6>
+    <h2>Check Your Resume Against A Job Description.</h2>
+    <h6>Remove all Doubts when applying for a job.</h6>
+  </div>
 </section>
 <section class="offersSection">
-    <div class="offersSection-contents l-container">
-        <div class="offers-text">
-            <h3>What our app offers ?</h3>
-            <h6>Analyse on your resume to match job description</h6>
-            <h6>
-                <i class="fa-sharp fa-solid fa-circle-check"></i>Check all
-                technical skills you have with Job description.
-            </h6>
-            <h6>
-                <i class="fa-sharp fa-solid fa-circle-check"></i>Check all soft
-                skills with Job description.
-            </h6>
-            <h6>
-                <i class="fa-sharp fa-solid fa-circle-check"></i>Ensure you have
-                other skills
-            </h6>
-            <div><a class="offers-btn" href="/ats">Find out how it works</a></div>
-        </div>
-        <div class="offersIllus">
-            <img class="illustration" src="../static/images/illus.png" alt="" />
-        </div>
+  <div class="offersSection-contents l-container">
+    <div class="offers-text">
+      <h3>What our app offers ?</h3>
+      <h6>Analyse on your resume to match job description</h6>
+      <h6>
+        <i class="fa-sharp fa-solid fa-circle-check"></i>Check all technical
+        skills you have with Job description.
+      </h6>
+      <h6>
+        <i class="fa-sharp fa-solid fa-circle-check"></i>Check all soft skills
+        with Job description.
+      </h6>
+      <h6>
+        <i class="fa-sharp fa-solid fa-circle-check"></i>Ensure you have other
+        skills
+      </h6>
+      <div><a class="offers-btn" href="/ats">Find out how it works</a></div>
     </div>
+    <div class="offersIllus">
+      <img class="illustration" src="../static/images/illus.png" alt="" />
+    </div>
+  </div>
 </section>
 <section class="team-section">
-    <div class="team-text">
-        <h3>From a team of talented developers.</h3>
-        <p>
-            We bring a unique application to help you be confident in your
-            application.
-        </p>
+  <div class="team-text">
+    <h3>From a team of talented developers.</h3>
+    <p>
+      We bring a unique application to help you be confident in your
+      application.
+    </p>
+  </div>
+  <div class="profile-section">
+    <div class="profile">
+      <img
+        class="profile-img"
+        src="../static/images/danny.jpg"
+        alt="Daniel`s profile picture"
+      />
+      <h3>Daniel Okyere</h3>
+      <h4>Backend Developer</h4>
     </div>
-    <div class="profile-section">
-        <div class="profile">
-            <img
-                class="profile-img"
-                src="../static/images/danny.jpg"
-                alt="Daniel`s profile picture"
-            />
-            <h3>Daniel Okyere</h3>
-            <h4>Backend Developer</h4>
-        </div>
-        <div class="profile">
-            <img
-                class="profile-img"
-                src="../static/images/mawuli.jpg"
-                alt="Mawuli`s profile picture"
-            />
-            <h3>Gabriel Ahiamata</h3>
-            <h4>Frontend Developer</h4>
-        </div>
+    <div class="profile">
+      <img
+        class="profile-img"
+        src="../static/images/mawuli.jpg"
+        alt="Mawuli`s profile picture"
+      />
+      <h3>Gabriel Ahiamata</h3>
+      <h4>Frontend Developer</h4>
     </div>
-    <div class="profile-btn-container">
-        <a class="profile-btn" href="/ats/about-us">Know more about them</a>
-    </div>
+  </div>
+  <div class="profile-btn-container">
+    <a class="profile-btn" href="/ats/about-us">Know more about them</a>
+  </div>
 </section>
 {% endblock %}

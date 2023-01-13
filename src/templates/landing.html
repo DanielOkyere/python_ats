@@ -1,4 +1,4 @@
-{% extends 'base.html' %} {% block title %}ATS Home{% endblock %} {% block head
+{% extends 'base.html' %} {% block title %}ARC Home{% endblock %} {% block head
 %} {{ super()}}
 {% endblock %} {% block content %}
 <section class="heroSection">
@@ -6,6 +6,13 @@
         <h6>Be confident in your application.</h6>
         <h2>Check Your Resume Against A Job Description.</h2>
         <h6>Remove all Doubts when applying for a job.</h6>
+        <a href="/ats"
+        ><button class="app-btn">
+          Try ARC
+          <i
+            class="fa-sharp fa-solid fa-arrow-up-right-from-square"
+          ></i></button
+      ></a>
     </div>
 </section>
 <section class="offersSection">
@@ -40,7 +47,7 @@
             application.
         </p>
     </div>
-    <div class="profile-section">
+    <div class="profile-section l-container">
         <div class="profile">
             <img
                 class="profile-img"
